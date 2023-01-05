@@ -3,7 +3,7 @@ import moon from "../assets/moon.svg"
 
 export default function Header() {
     return (
-        <div>
+        <div className='header_container'>
             <h1>Where in the world?</h1>
             <span><img src={moon} alt="moon" />Dark mode</span>
         </div>
