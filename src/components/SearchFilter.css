@@ -1,0 +1,33 @@
+.searchfilter_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 5%;
+  background-color: blue;
+}
+.search_container {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  height: 6vh;
+  border-radius: 8px;
+}
+input {
+  outline: none;
+  border: none;
+  height: 100%;
+  width: 100%;
+  color: #858585;
+  font-size: 16px;
+}
+.search_container button {
+  background-color: white;
+  height: 6vh;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search_container img {
+  margin: 0;
+}

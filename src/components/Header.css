@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 5%;
-  background-color: var(-Very-Light-Gray);
   box-shadow: 12px 2px 2px 1px rgba(26, 26, 31, 0.2);
 }
 .header_container span {
