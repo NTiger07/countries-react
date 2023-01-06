@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import search from "../assets/search.svg";
 import "./SearchFilter.css";
 
@@ -17,7 +17,7 @@ export default function SearchFilter() {
       </span>
       <span className="filter_container">
         <select name="region" id="filter">
-          <option value="">All</option>
+          <option value="">Filter by Region</option>
           <option value="&diet=balanced">Africa</option>
           <option value="&diet=high-fiber">America</option>
           <option value="&diet=high-protein">Asia</option>
