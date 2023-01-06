@@ -1,8 +1,9 @@
 import React from "react";
 import data from "./data";
+import "./CountriesContainer.css";
 
 export default function CountriesContainer() {
-  const countries = data.map((item) => {
+  const countries = data.slice(0, 10).map((item) => {
     return (
       <div>
         <h1>{item.name}</h1>

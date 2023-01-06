@@ -9,7 +9,7 @@ export default function App() {
     <div className="main_container">
       <Header />
       <SearchFilter />
-      {/* <CountriesContainer /> */}
+      <CountriesContainer />
     </div>
   );
 }
