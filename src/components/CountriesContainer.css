@@ -7,10 +7,6 @@
   padding: 10px 5vw;
   width: 100%;
 }
-.test {
-  width: 260px, 1440px;
-  height: 335px, 1024px;
-}
 .countries_item {
   cursor: pointer;
   width: 288.88px;
@@ -23,7 +19,11 @@
 }
 .countries_image {
   height: 50%;
-  background-color: black;
+  overflow: hidden;
+}
+.countries_image img {
+  width: 100%;
+  height: 100%;
 }
 .countries_content {
   height: 50%;
