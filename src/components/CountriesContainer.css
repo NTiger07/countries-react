@@ -2,3 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+.test {
+  width: 260px, 1440px;
+  height: 335px, 1024px;
+}
