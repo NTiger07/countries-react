@@ -11,9 +11,18 @@ export default function CountriesContainer() {
         </div>
         <div className="countries_content">
           <h1>{item.name}</h1>
-          <h2>{item.population}</h2>
-          <h2>{item.region}</h2>
-          <h3>{item.capital}</h3>
+          <span>
+            <b>Population: </b>
+            {item.population}
+          </span>
+          <span>
+            <b>Region: </b>
+            {item.region}
+          </span>
+          <span>
+            <b>Capital: </b>
+            {item.capital}
+          </span>
         </div>
       </div>
     );
