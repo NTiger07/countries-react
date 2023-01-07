@@ -3,7 +3,7 @@ import data from "./data";
 import "./CountriesContainer.css";
 
 export default function CountriesContainer() {
-  const countries = data.slice(0, 10).map((item) => {
+  const countries = data.slice(0, 8).map((item) => {
     return (
       <div className="countries_item">
         <h1>{item.name}</h1>
