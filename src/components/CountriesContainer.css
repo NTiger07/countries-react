@@ -1,8 +1,19 @@
 .countries_container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: hsl(0, 0%, 98%);
+  justify-content: space-around;
+  padding: 10px 5%;
 }
 .test {
   width: 260px, 1440px;
   height: 335px, 1024px;
+}
+.countries_item {
+  width: 288.88px;
+  height: 295px;
+  background-color: #fff;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 2px 2px 10px #858585;
 }
