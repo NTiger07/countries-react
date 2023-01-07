@@ -7,7 +7,7 @@ export default function CountriesContainer() {
     return (
       <div className="countries_item">
         <div className="countries_image">
-          <img src="" alt="" />
+          <img src={item.flag} alt="country_image" />
         </div>
         <div className="countries_content">
           <h1>{item.name}</h1>
