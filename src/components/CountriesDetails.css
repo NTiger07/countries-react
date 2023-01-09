@@ -1,3 +1,15 @@
 .countries_details-container {
   display: flex;
 }
+.details_content {
+  display: flex;
+  flex-direction: column;
+}
+.points-container {
+  display: flex;
+}
+.content_pointsone,
+.content_pointstwo {
+  display: flex;
+  flex-direction: column;
+}
