@@ -5,14 +5,14 @@ import arrow from "../assets/arrow-left.svg";
 export default class CountriesDetails extends Component {
   render() {
     return (
-      <>
+      <div className="countries_details-container">
         <button id="backButton">
           <span>
             <img src={arrow} alt="arrow" />
             Back
           </span>
         </button>
-        <div className="countries_details-container">
+        <div className="details_container">
           <div className="details_image">
             <img src="" alt="country-flag" />
           </div>
@@ -55,7 +55,7 @@ export default class CountriesDetails extends Component {
             </div>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 }

@@ -1,5 +1,33 @@
 .countries_details-container {
+  padding: 50px 5vw;
+}
+#backButton {
+  width: 10%;
+  height: 4.5%;
+  background-color: white;
+  box-shadow: 2px 2px 10px #858585;
+  border-radius: 6px;
+  padding: 5px 25px;
+}
+#backButton span {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: 600;
+}
+#backButton img {
+  width: 25px;
+  transform: scaleY(0.95);
+}
+.details_container {
+  height: 100%;
+  display: flex;
+  margin-top: 10vh;
+}
+.details_image {
+  background-color: black;
+  width: 50%;
 }
 .details_content {
   display: flex;
