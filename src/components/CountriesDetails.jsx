@@ -49,6 +49,7 @@ export default class CountriesDetails extends Component {
               </div>
             </div>
             <div className="details_border">
+              <b>Border Countries: </b>
               <span>France</span>
               <span>Germany</span>
               <span>Netherlands</span>
