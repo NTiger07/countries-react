@@ -4,6 +4,7 @@ import Header from "./Header";
 import SearchFilter from "./SearchFilter";
 import CountriesContainer from "./CountriesContainer";
 import "../App.css";
+import CountriesDetails from "./CountriesDetails";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
               </div>
             }
           />
+          <Route path="details" element={<CountriesDetails />} />
         </Routes>
       </BrowserRouter>
     </>

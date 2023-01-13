@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./CountriesDetails.css";
 import arrow from "../assets/arrow-left.svg";
 
@@ -6,12 +7,14 @@ export default class CountriesDetails extends Component {
   render() {
     return (
       <div className="countries_details-container">
-        <button id="backButton">
-          <span>
-            <img src={arrow} alt="arrow" />
-            Back
-          </span>
-        </button>
+        <Link to="/">
+          <button id="backButton">
+            <span>
+              <img src={arrow} alt="arrow" />
+              Back
+            </span>
+          </button>
+        </Link>
         <div className="details_container">
           <div className="details_image">
             <img src="" alt="country-flag" />
