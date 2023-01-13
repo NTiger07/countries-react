@@ -7,6 +7,9 @@
   padding: 10px 5vw;
   width: 100%;
 }
+.countries_container a {
+  color: black;
+}
 .countries_item {
   cursor: pointer;
   width: 288.88px;
