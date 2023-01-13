@@ -1,4 +1,5 @@
 import React from "react";
+import CountriesDetails from "./CountriesDetails";
 import data from "./data";
 import "./CountriesContainer.css";
 
