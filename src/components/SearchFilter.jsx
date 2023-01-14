@@ -17,7 +17,7 @@ export default function SearchFilter() {
       </span>
       <span className="filter_container">
         <select name="region" id="filter">
-          <option value="">Filter by Region</option>
+          <option value="/all">Filter by Region</option>
           <option value="/region/africa">Africa</option>
           <option value="/region/america">America</option>
           <option value="/region/asia">Asia</option>
