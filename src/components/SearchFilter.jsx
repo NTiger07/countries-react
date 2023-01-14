@@ -18,11 +18,11 @@ export default function SearchFilter() {
       <span className="filter_container">
         <select name="region" id="filter">
           <option value="">Filter by Region</option>
-          <option value="&diet=balanced">Africa</option>
-          <option value="&diet=high-fiber">America</option>
-          <option value="&diet=high-protein">Asia</option>
-          <option value="&diet=low-carb">Europe</option>
-          <option value="&diet=low-fat">Oceania</option>
+          <option value="/region/africa">Africa</option>
+          <option value="/region/america">America</option>
+          <option value="/region/asia">Asia</option>
+          <option value="/region/europe">Europe</option>
+          <option value="/region/oceania">Oceania</option>
         </select>
       </span>
     </div>
