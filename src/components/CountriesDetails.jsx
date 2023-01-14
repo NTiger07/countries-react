@@ -24,7 +24,7 @@ export default class CountriesDetails extends Component {
               <img src={this.props.flag} alt="country-flag" />
             </div>
             <div className="details_content">
-              <h1>Belgium</h1>
+              <h1>{this.props.name}</h1>
               <div className="points-container">
                 <div className="content_pointsone">
                   <span>

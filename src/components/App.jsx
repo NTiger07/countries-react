@@ -16,7 +16,6 @@ export default function App() {
             element={
               <div className="main_container">
                 <Header />
-                <SearchFilter />
                 <CountriesContainer />
               </div>
             }
