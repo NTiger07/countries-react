@@ -8,7 +8,7 @@ const countries_data = [
             "Turkmen"
         ],
         "population": 40218234,
-        "flag": require("https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg"),
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
         "region": "Asia",
         "area": 652230
     },
@@ -19,7 +19,7 @@ const countries_data = [
             "Swedish"
         ],
         "population": 28875,
-        "flag": require("https://flagcdn.com/ax.svg"),
+        "flag": "https://flagcdn.com/ax.svg",
         "region": "Europe",
         "area": 1580
     },
@@ -30,7 +30,7 @@ const countries_data = [
             "Albanian"
         ],
         "population": 2837743,
-        "flag": require("https://flagcdn.com/al.svg"),
+        "flag": "https://flagcdn.com/al.svg",
         "region": "Europe",
         "area": 28748
     },
@@ -41,7 +41,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 43851043,
-        "flag": require("https://flagcdn.com/dz.svg"),
+        "flag": "https://flagcdn.com/dz.svg",
         "region": "Africa",
         "area": 2381741
     },
@@ -53,7 +53,7 @@ const countries_data = [
             "Samoan"
         ],
         "population": 55197,
-        "flag": require("https://flagcdn.com/as.svg"),
+        "flag": "https://flagcdn.com/as.svg",
         "region": "Oceania",
         "area": 199
     },
@@ -64,7 +64,7 @@ const countries_data = [
             "Catalan"
         ],
         "population": 77265,
-        "flag": require("https://flagcdn.com/ad.svg"),
+        "flag": "https://flagcdn.com/ad.svg",
         "region": "Europe",
         "area": 468
     },
@@ -75,7 +75,7 @@ const countries_data = [
             "Portuguese"
         ],
         "population": 32866268,
-        "flag": require("https://flagcdn.com/ao.svg"),
+        "flag": "https://flagcdn.com/ao.svg",
         "region": "Africa",
         "area": 1246700
     },
@@ -86,7 +86,7 @@ const countries_data = [
             "English"
         ],
         "population": 13452,
-        "flag": require("https://flagcdn.com/ai.svg"),
+        "flag": "https://flagcdn.com/ai.svg",
         "region": "Americas",
         "area": 91
     },
@@ -97,7 +97,7 @@ const countries_data = [
             "Russian"
         ],
         "population": 1000,
-        "flag": require("https://flagcdn.com/aq.svg"),
+        "flag": "https://flagcdn.com/aq.svg",
         "region": "Polar",
         "area": 14000000
     },
@@ -108,7 +108,7 @@ const countries_data = [
             "English"
         ],
         "population": 97928,
-        "flag": require("https://flagcdn.com/ag.svg"),
+        "flag": "https://flagcdn.com/ag.svg",
         "region": "Americas",
         "area": 442
     },
@@ -120,7 +120,7 @@ const countries_data = [
             "Guaraní"
         ],
         "population": 45376763,
-        "flag": require("https://flagcdn.com/ar.svg"),
+        "flag": "https://flagcdn.com/ar.svg",
         "region": "Americas",
         "area": 2780400
     },
@@ -131,7 +131,7 @@ const countries_data = [
             "Armenian"
         ],
         "population": 2963234,
-        "flag": require("https://flagcdn.com/am.svg"),
+        "flag": "https://flagcdn.com/am.svg",
         "region": "Asia",
         "area": 29743
     },
@@ -143,7 +143,7 @@ const countries_data = [
             "(Eastern) Punjabi"
         ],
         "population": 106766,
-        "flag": require("https://flagcdn.com/aw.svg"),
+        "flag": "https://flagcdn.com/aw.svg",
         "region": "Americas",
         "area": 180
     },
@@ -154,7 +154,7 @@ const countries_data = [
             "English"
         ],
         "population": 25687041,
-        "flag": require("https://flagcdn.com/au.svg"),
+        "flag": "https://flagcdn.com/au.svg",
         "region": "Oceania",
         "area": 7692024
     },
@@ -165,7 +165,7 @@ const countries_data = [
             "German"
         ],
         "population": 8917205,
-        "flag": require("https://flagcdn.com/at.svg"),
+        "flag": "https://flagcdn.com/at.svg",
         "region": "Europe",
         "area": 83871
     },
@@ -176,7 +176,7 @@ const countries_data = [
             "Azerbaijani"
         ],
         "population": 10110116,
-        "flag": require("https://flagcdn.com/az.svg"),
+        "flag": "https://flagcdn.com/az.svg",
         "region": "Asia",
         "area": 86600
     },
@@ -187,7 +187,7 @@ const countries_data = [
             "English"
         ],
         "population": 393248,
-        "flag": require("https://flagcdn.com/bs.svg"),
+        "flag": "https://flagcdn.com/bs.svg",
         "region": "Americas",
         "area": 13943
     },
@@ -198,7 +198,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 1701583,
-        "flag": require("https://flagcdn.com/bh.svg"),
+        "flag": "https://flagcdn.com/bh.svg",
         "region": "Asia",
         "area": 765
     },
@@ -209,7 +209,7 @@ const countries_data = [
             "Bengali"
         ],
         "population": 164689383,
-        "flag": require("https://flagcdn.com/bd.svg"),
+        "flag": "https://flagcdn.com/bd.svg",
         "region": "Asia",
         "area": 147570
     },
@@ -220,7 +220,7 @@ const countries_data = [
             "English"
         ],
         "population": 287371,
-        "flag": require("https://flagcdn.com/bb.svg"),
+        "flag": "https://flagcdn.com/bb.svg",
         "region": "Americas",
         "area": 430
     },
@@ -232,7 +232,7 @@ const countries_data = [
             "Russian"
         ],
         "population": 9398861,
-        "flag": require("https://flagcdn.com/by.svg"),
+        "flag": "https://flagcdn.com/by.svg",
         "region": "Europe",
         "area": 207600
     },
@@ -245,7 +245,7 @@ const countries_data = [
             "German"
         ],
         "population": 11555997,
-        "flag": require("https://flagcdn.com/be.svg"),
+        "flag": "https://flagcdn.com/be.svg",
         "region": "Europe",
         "area": 30528
     },
@@ -257,7 +257,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 397621,
-        "flag": require("https://flagcdn.com/bz.svg"),
+        "flag": "https://flagcdn.com/bz.svg",
         "region": "Americas",
         "area": 22966
     },
@@ -268,7 +268,7 @@ const countries_data = [
             "French"
         ],
         "population": 12123198,
-        "flag": require("https://flagcdn.com/bj.svg"),
+        "flag": "https://flagcdn.com/bj.svg",
         "region": "Africa",
         "area": 112622
     },
@@ -279,7 +279,7 @@ const countries_data = [
             "English"
         ],
         "population": 63903,
-        "flag": require("https://flagcdn.com/bm.svg"),
+        "flag": "https://flagcdn.com/bm.svg",
         "region": "Americas",
         "area": 54
     },
@@ -290,7 +290,7 @@ const countries_data = [
             "Dzongkha"
         ],
         "population": 771612,
-        "flag": require("https://flagcdn.com/bt.svg"),
+        "flag": "https://flagcdn.com/bt.svg",
         "region": "Asia",
         "area": 38394
     },
@@ -303,7 +303,7 @@ const countries_data = [
             "Quechua"
         ],
         "population": 11673029,
-        "flag": require("https://flagcdn.com/bo.svg"),
+        "flag": "https://flagcdn.com/bo.svg",
         "region": "Americas",
         "area": 1098581
     },
@@ -314,7 +314,7 @@ const countries_data = [
             "Dutch"
         ],
         "population": 17408,
-        "flag": require("https://flagcdn.com/bq.svg"),
+        "flag": "https://flagcdn.com/bq.svg",
         "region": "Americas",
         "area": 294
     },
@@ -327,7 +327,7 @@ const countries_data = [
             "Serbian"
         ],
         "population": 3280815,
-        "flag": require("https://flagcdn.com/ba.svg"),
+        "flag": "https://flagcdn.com/ba.svg",
         "region": "Europe",
         "area": 51209
     },
@@ -339,7 +339,7 @@ const countries_data = [
             "Tswana"
         ],
         "population": 2351625,
-        "flag": require("https://flagcdn.com/bw.svg"),
+        "flag": "https://flagcdn.com/bw.svg",
         "region": "Africa",
         "area": 582000
     },
@@ -351,7 +351,7 @@ const countries_data = [
             "Norwegian Nynorsk"
         ],
         "population": 0,
-        "flag": require("https://flagcdn.com/bv.svg"),
+        "flag": "https://flagcdn.com/bv.svg",
         "region": "Antarctic Ocean",
         "area": 49
     },
@@ -362,7 +362,7 @@ const countries_data = [
             "Portuguese"
         ],
         "population": 212559409,
-        "flag": require("https://flagcdn.com/br.svg"),
+        "flag": "https://flagcdn.com/br.svg",
         "region": "Americas",
         "area": 8515767
     },
@@ -373,7 +373,7 @@ const countries_data = [
             "English"
         ],
         "population": 3000,
-        "flag": require("https://flagcdn.com/io.svg"),
+        "flag": "https://flagcdn.com/io.svg",
         "region": "Africa",
         "area": 60
     },
@@ -383,7 +383,7 @@ const countries_data = [
             "English"
         ],
         "population": 300,
-        "flag": require("https://flagcdn.com/um.svg"),
+        "flag": "https://flagcdn.com/um.svg",
         "region": "Americas"
     },
     {
@@ -393,7 +393,7 @@ const countries_data = [
             "English"
         ],
         "population": 30237,
-        "flag": require("https://flagcdn.com/vg.svg"),
+        "flag": "https://flagcdn.com/vg.svg",
         "region": "Americas",
         "area": 151
     },
@@ -404,7 +404,7 @@ const countries_data = [
             "English"
         ],
         "population": 106290,
-        "flag": require("https://flagcdn.com/vi.svg"),
+        "flag": "https://flagcdn.com/vi.svg",
         "region": "Americas",
         "area": 346.36
     },
@@ -415,7 +415,7 @@ const countries_data = [
             "Malay"
         ],
         "population": 437483,
-        "flag": require("https://flagcdn.com/bn.svg"),
+        "flag": "https://flagcdn.com/bn.svg",
         "region": "Asia",
         "area": 5765
     },
@@ -426,7 +426,7 @@ const countries_data = [
             "Bulgarian"
         ],
         "population": 6927288,
-        "flag": require("https://flagcdn.com/bg.svg"),
+        "flag": "https://flagcdn.com/bg.svg",
         "region": "Europe",
         "area": 110879
     },
@@ -438,7 +438,7 @@ const countries_data = [
             "Fula"
         ],
         "population": 20903278,
-        "flag": require("https://flagcdn.com/bf.svg"),
+        "flag": "https://flagcdn.com/bf.svg",
         "region": "Africa",
         "area": 272967
     },
@@ -450,7 +450,7 @@ const countries_data = [
             "Kirundi"
         ],
         "population": 11890781,
-        "flag": require("https://flagcdn.com/bi.svg"),
+        "flag": "https://flagcdn.com/bi.svg",
         "region": "Africa",
         "area": 27834
     },
@@ -461,7 +461,7 @@ const countries_data = [
             "Khmer"
         ],
         "population": 16718971,
-        "flag": require("https://flagcdn.com/kh.svg"),
+        "flag": "https://flagcdn.com/kh.svg",
         "region": "Asia",
         "area": 181035
     },
@@ -473,7 +473,7 @@ const countries_data = [
             "French"
         ],
         "population": 26545864,
-        "flag": require("https://flagcdn.com/cm.svg"),
+        "flag": "https://flagcdn.com/cm.svg",
         "region": "Africa",
         "area": 475442
     },
@@ -485,7 +485,7 @@ const countries_data = [
             "French"
         ],
         "population": 38005238,
-        "flag": require("https://flagcdn.com/ca.svg"),
+        "flag": "https://flagcdn.com/ca.svg",
         "region": "Americas",
         "area": 9984670
     },
@@ -496,7 +496,7 @@ const countries_data = [
             "Portuguese"
         ],
         "population": 555988,
-        "flag": require("https://flagcdn.com/cv.svg"),
+        "flag": "https://flagcdn.com/cv.svg",
         "region": "Africa",
         "area": 4033
     },
@@ -507,7 +507,7 @@ const countries_data = [
             "English"
         ],
         "population": 65720,
-        "flag": require("https://flagcdn.com/ky.svg"),
+        "flag": "https://flagcdn.com/ky.svg",
         "region": "Americas",
         "area": 264
     },
@@ -519,7 +519,7 @@ const countries_data = [
             "Sango"
         ],
         "population": 4829764,
-        "flag": require("https://flagcdn.com/cf.svg"),
+        "flag": "https://flagcdn.com/cf.svg",
         "region": "Africa",
         "area": 622984
     },
@@ -531,7 +531,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 16425859,
-        "flag": require("https://flagcdn.com/td.svg"),
+        "flag": "https://flagcdn.com/td.svg",
         "region": "Africa",
         "area": 1284000
     },
@@ -542,7 +542,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 19116209,
-        "flag": require("https://flagcdn.com/cl.svg"),
+        "flag": "https://flagcdn.com/cl.svg",
         "region": "Americas",
         "area": 756102
     },
@@ -553,7 +553,7 @@ const countries_data = [
             "Chinese"
         ],
         "population": 1402112000,
-        "flag": require("https://flagcdn.com/cn.svg"),
+        "flag": "https://flagcdn.com/cn.svg",
         "region": "Asia",
         "area": 9640011
     },
@@ -564,7 +564,7 @@ const countries_data = [
             "English"
         ],
         "population": 2072,
-        "flag": require("https://flagcdn.com/cx.svg"),
+        "flag": "https://flagcdn.com/cx.svg",
         "region": "Oceania",
         "area": 135
     },
@@ -575,7 +575,7 @@ const countries_data = [
             "English"
         ],
         "population": 550,
-        "flag": require("https://flagcdn.com/cc.svg"),
+        "flag": "https://flagcdn.com/cc.svg",
         "region": "Oceania",
         "area": 14
     },
@@ -586,7 +586,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 50882884,
-        "flag": require("https://flagcdn.com/co.svg"),
+        "flag": "https://flagcdn.com/co.svg",
         "region": "Americas",
         "area": 1141748
     },
@@ -598,7 +598,7 @@ const countries_data = [
             "French"
         ],
         "population": 869595,
-        "flag": require("https://flagcdn.com/km.svg"),
+        "flag": "https://flagcdn.com/km.svg",
         "region": "Africa",
         "area": 1862
     },
@@ -610,7 +610,7 @@ const countries_data = [
             "Lingala"
         ],
         "population": 5518092,
-        "flag": require("https://flagcdn.com/cg.svg"),
+        "flag": "https://flagcdn.com/cg.svg",
         "region": "Africa",
         "area": 342000
     },
@@ -625,7 +625,7 @@ const countries_data = [
             "Luba-Katanga"
         ],
         "population": 89561404,
-        "flag": require("https://flagcdn.com/cd.svg"),
+        "flag": "https://flagcdn.com/cd.svg",
         "region": "Africa",
         "area": 2344858
     },
@@ -637,7 +637,7 @@ const countries_data = [
             "Cook Islands Māori"
         ],
         "population": 18100,
-        "flag": require("https://flagcdn.com/ck.svg"),
+        "flag": "https://flagcdn.com/ck.svg",
         "region": "Oceania",
         "area": 236
     },
@@ -648,7 +648,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 5094114,
-        "flag": require("https://flagcdn.com/cr.svg"),
+        "flag": "https://flagcdn.com/cr.svg",
         "region": "Americas",
         "area": 51100
     },
@@ -659,7 +659,7 @@ const countries_data = [
             "Croatian"
         ],
         "population": 4047200,
-        "flag": require("https://flagcdn.com/hr.svg"),
+        "flag": "https://flagcdn.com/hr.svg",
         "region": "Europe",
         "area": 56594
     },
@@ -670,7 +670,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 11326616,
-        "flag": require("https://flagcdn.com/cu.svg"),
+        "flag": "https://flagcdn.com/cu.svg",
         "region": "Americas",
         "area": 109884
     },
@@ -683,7 +683,7 @@ const countries_data = [
             "English"
         ],
         "population": 155014,
-        "flag": require("https://flagcdn.com/cw.svg"),
+        "flag": "https://flagcdn.com/cw.svg",
         "region": "Americas",
         "area": 444
     },
@@ -696,7 +696,7 @@ const countries_data = [
             "Armenian"
         ],
         "population": 1207361,
-        "flag": require("https://flagcdn.com/cy.svg"),
+        "flag": "https://flagcdn.com/cy.svg",
         "region": "Europe",
         "area": 9251
     },
@@ -708,7 +708,7 @@ const countries_data = [
             "Slovak"
         ],
         "population": 10698896,
-        "flag": require("https://flagcdn.com/cz.svg"),
+        "flag": "https://flagcdn.com/cz.svg",
         "region": "Europe",
         "area": 78865
     },
@@ -719,7 +719,7 @@ const countries_data = [
             "Danish"
         ],
         "population": 5831404,
-        "flag": require("https://flagcdn.com/dk.svg"),
+        "flag": "https://flagcdn.com/dk.svg",
         "region": "Europe",
         "area": 43094
     },
@@ -731,7 +731,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 988002,
-        "flag": require("https://flagcdn.com/dj.svg"),
+        "flag": "https://flagcdn.com/dj.svg",
         "region": "Africa",
         "area": 23200
     },
@@ -742,7 +742,7 @@ const countries_data = [
             "English"
         ],
         "population": 71991,
-        "flag": require("https://flagcdn.com/dm.svg"),
+        "flag": "https://flagcdn.com/dm.svg",
         "region": "Americas",
         "area": 751
     },
@@ -753,7 +753,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 10847904,
-        "flag": require("https://flagcdn.com/do.svg"),
+        "flag": "https://flagcdn.com/do.svg",
         "region": "Americas",
         "area": 48671
     },
@@ -764,7 +764,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 17643060,
-        "flag": require("https://flagcdn.com/ec.svg"),
+        "flag": "https://flagcdn.com/ec.svg",
         "region": "Americas",
         "area": 276841
     },
@@ -775,7 +775,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 102334403,
-        "flag": require("https://flagcdn.com/eg.svg"),
+        "flag": "https://flagcdn.com/eg.svg",
         "region": "Africa",
         "area": 1002450
     },
@@ -786,7 +786,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 6486201,
-        "flag": require("https://flagcdn.com/sv.svg"),
+        "flag": "https://flagcdn.com/sv.svg",
         "region": "Americas",
         "area": 21041
     },
@@ -800,7 +800,7 @@ const countries_data = [
             "Fang"
         ],
         "population": 1402985,
-        "flag": require("https://flagcdn.com/gq.svg"),
+        "flag": "https://flagcdn.com/gq.svg",
         "region": "Africa",
         "area": 28051
     },
@@ -819,7 +819,7 @@ const countries_data = [
             "Afar"
         ],
         "population": 5352000,
-        "flag": require("https://flagcdn.com/er.svg"),
+        "flag": "https://flagcdn.com/er.svg",
         "region": "Africa",
         "area": 117600
     },
@@ -830,7 +830,7 @@ const countries_data = [
             "Estonian"
         ],
         "population": 1331057,
-        "flag": require("https://flagcdn.com/ee.svg"),
+        "flag": "https://flagcdn.com/ee.svg",
         "region": "Europe",
         "area": 45227
     },
@@ -841,7 +841,7 @@ const countries_data = [
             "Amharic"
         ],
         "population": 114963583,
-        "flag": require("https://flagcdn.com/et.svg"),
+        "flag": "https://flagcdn.com/et.svg",
         "region": "Africa",
         "area": 1104300
     },
@@ -852,7 +852,7 @@ const countries_data = [
             "English"
         ],
         "population": 2563,
-        "flag": require("https://flagcdn.com/fk.svg"),
+        "flag": "https://flagcdn.com/fk.svg",
         "region": "Americas",
         "area": 12173
     },
@@ -863,7 +863,7 @@ const countries_data = [
             "Faroese"
         ],
         "population": 48865,
-        "flag": require("https://flagcdn.com/fo.svg"),
+        "flag": "https://flagcdn.com/fo.svg",
         "region": "Europe",
         "area": 1393
     },
@@ -877,7 +877,7 @@ const countries_data = [
             "Rotuman"
         ],
         "population": 896444,
-        "flag": require("https://flagcdn.com/fj.svg"),
+        "flag": "https://flagcdn.com/fj.svg",
         "region": "Oceania",
         "area": 18272
     },
@@ -889,7 +889,7 @@ const countries_data = [
             "Swedish"
         ],
         "population": 5530719,
-        "flag": require("https://flagcdn.com/fi.svg"),
+        "flag": "https://flagcdn.com/fi.svg",
         "region": "Europe",
         "area": 338424
     },
@@ -900,7 +900,7 @@ const countries_data = [
             "French"
         ],
         "population": 67391582,
-        "flag": require("https://flagcdn.com/fr.svg"),
+        "flag": "https://flagcdn.com/fr.svg",
         "region": "Europe",
         "area": 640679
     },
@@ -911,7 +911,7 @@ const countries_data = [
             "French"
         ],
         "population": 254541,
-        "flag": require("https://flagcdn.com/gf.svg"),
+        "flag": "https://flagcdn.com/gf.svg",
         "region": "Americas"
     },
     {
@@ -921,7 +921,7 @@ const countries_data = [
             "French"
         ],
         "population": 280904,
-        "flag": require("https://flagcdn.com/pf.svg"),
+        "flag": "https://flagcdn.com/pf.svg",
         "region": "Oceania",
         "area": 4167
     },
@@ -932,7 +932,7 @@ const countries_data = [
             "French"
         ],
         "population": 140,
-        "flag": require("https://flagcdn.com/tf.svg"),
+        "flag": "https://flagcdn.com/tf.svg",
         "region": "Africa",
         "area": 7747
     },
@@ -943,7 +943,7 @@ const countries_data = [
             "French"
         ],
         "population": 2225728,
-        "flag": require("https://flagcdn.com/ga.svg"),
+        "flag": "https://flagcdn.com/ga.svg",
         "region": "Africa",
         "area": 267668
     },
@@ -954,7 +954,7 @@ const countries_data = [
             "English"
         ],
         "population": 2416664,
-        "flag": require("https://flagcdn.com/gm.svg"),
+        "flag": "https://flagcdn.com/gm.svg",
         "region": "Africa",
         "area": 11295
     },
@@ -965,7 +965,7 @@ const countries_data = [
             "Georgian"
         ],
         "population": 3714000,
-        "flag": require("https://flagcdn.com/ge.svg"),
+        "flag": "https://flagcdn.com/ge.svg",
         "region": "Asia",
         "area": 69700
     },
@@ -976,7 +976,7 @@ const countries_data = [
             "German"
         ],
         "population": 83240525,
-        "flag": require("https://flagcdn.com/de.svg"),
+        "flag": "https://flagcdn.com/de.svg",
         "region": "Europe",
         "area": 357114
     },
@@ -987,7 +987,7 @@ const countries_data = [
             "English"
         ],
         "population": 31072945,
-        "flag": require("https://flagcdn.com/gh.svg"),
+        "flag": "https://flagcdn.com/gh.svg",
         "region": "Africa",
         "area": 238533
     },
@@ -998,7 +998,7 @@ const countries_data = [
             "English"
         ],
         "population": 33691,
-        "flag": require("https://flagcdn.com/gi.svg"),
+        "flag": "https://flagcdn.com/gi.svg",
         "region": "Europe",
         "area": 6
     },
@@ -1009,7 +1009,7 @@ const countries_data = [
             "Greek (modern)"
         ],
         "population": 10715549,
-        "flag": require("https://flagcdn.com/gr.svg"),
+        "flag": "https://flagcdn.com/gr.svg",
         "region": "Europe",
         "area": 131990
     },
@@ -1020,7 +1020,7 @@ const countries_data = [
             "Kalaallisut"
         ],
         "population": 56367,
-        "flag": require("https://flagcdn.com/gl.svg"),
+        "flag": "https://flagcdn.com/gl.svg",
         "region": "Americas",
         "area": 2166086
     },
@@ -1031,7 +1031,7 @@ const countries_data = [
             "English"
         ],
         "population": 112519,
-        "flag": require("https://flagcdn.com/gd.svg"),
+        "flag": "https://flagcdn.com/gd.svg",
         "region": "Americas",
         "area": 344
     },
@@ -1042,7 +1042,7 @@ const countries_data = [
             "French"
         ],
         "population": 400132,
-        "flag": require("https://flagcdn.com/gp.svg"),
+        "flag": "https://flagcdn.com/gp.svg",
         "region": "Americas"
     },
     {
@@ -1054,7 +1054,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 168783,
-        "flag": require("https://flagcdn.com/gu.svg"),
+        "flag": "https://flagcdn.com/gu.svg",
         "region": "Oceania",
         "area": 549
     },
@@ -1065,7 +1065,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 16858333,
-        "flag": require("https://flagcdn.com/gt.svg"),
+        "flag": "https://flagcdn.com/gt.svg",
         "region": "Americas",
         "area": 108889
     },
@@ -1077,7 +1077,7 @@ const countries_data = [
             "French"
         ],
         "population": 62999,
-        "flag": require("https://flagcdn.com/gg.svg"),
+        "flag": "https://flagcdn.com/gg.svg",
         "region": "Europe",
         "area": 78
     },
@@ -1089,7 +1089,7 @@ const countries_data = [
             "Fula"
         ],
         "population": 13132792,
-        "flag": require("https://flagcdn.com/gn.svg"),
+        "flag": "https://flagcdn.com/gn.svg",
         "region": "Africa",
         "area": 245857
     },
@@ -1100,7 +1100,7 @@ const countries_data = [
             "Portuguese"
         ],
         "population": 1967998,
-        "flag": require("https://flagcdn.com/gw.svg"),
+        "flag": "https://flagcdn.com/gw.svg",
         "region": "Africa",
         "area": 36125
     },
@@ -1111,7 +1111,7 @@ const countries_data = [
             "English"
         ],
         "population": 786559,
-        "flag": require("https://flagcdn.com/gy.svg"),
+        "flag": "https://flagcdn.com/gy.svg",
         "region": "Americas",
         "area": 214969
     },
@@ -1123,7 +1123,7 @@ const countries_data = [
             "Haitian"
         ],
         "population": 11402533,
-        "flag": require("https://flagcdn.com/ht.svg"),
+        "flag": "https://flagcdn.com/ht.svg",
         "region": "Americas",
         "area": 27750
     },
@@ -1133,7 +1133,7 @@ const countries_data = [
             "English"
         ],
         "population": 0,
-        "flag": require("https://flagcdn.com/hm.svg"),
+        "flag": "https://flagcdn.com/hm.svg",
         "region": "Antarctic",
         "area": 412
     },
@@ -1147,7 +1147,7 @@ const countries_data = [
             "German"
         ],
         "population": 451,
-        "flag": require("https://flagcdn.com/va.svg"),
+        "flag": "https://flagcdn.com/va.svg",
         "region": "Europe",
         "area": 0.44
     },
@@ -1158,7 +1158,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 9904608,
-        "flag": require("https://flagcdn.com/hn.svg"),
+        "flag": "https://flagcdn.com/hn.svg",
         "region": "Americas",
         "area": 112492
     },
@@ -1169,7 +1169,7 @@ const countries_data = [
             "Hungarian"
         ],
         "population": 9749763,
-        "flag": require("https://flagcdn.com/hu.svg"),
+        "flag": "https://flagcdn.com/hu.svg",
         "region": "Europe",
         "area": 93028
     },
@@ -1181,7 +1181,7 @@ const countries_data = [
             "Chinese"
         ],
         "population": 7481800,
-        "flag": require("https://flagcdn.com/hk.svg"),
+        "flag": "https://flagcdn.com/hk.svg",
         "region": "Asia",
         "area": 1104
     },
@@ -1192,7 +1192,7 @@ const countries_data = [
             "Icelandic"
         ],
         "population": 366425,
-        "flag": require("https://flagcdn.com/is.svg"),
+        "flag": "https://flagcdn.com/is.svg",
         "region": "Europe",
         "area": 103000
     },
@@ -1204,7 +1204,7 @@ const countries_data = [
             "English"
         ],
         "population": 1380004385,
-        "flag": require("https://flagcdn.com/in.svg"),
+        "flag": "https://flagcdn.com/in.svg",
         "region": "Asia",
         "area": 3287590
     },
@@ -1215,7 +1215,7 @@ const countries_data = [
             "Indonesian"
         ],
         "population": 273523621,
-        "flag": require("https://flagcdn.com/id.svg"),
+        "flag": "https://flagcdn.com/id.svg",
         "region": "Asia",
         "area": 1904569
     },
@@ -1226,7 +1226,7 @@ const countries_data = [
             "French"
         ],
         "population": 26378275,
-        "flag": require("https://flagcdn.com/ci.svg"),
+        "flag": "https://flagcdn.com/ci.svg",
         "region": "Africa",
         "area": 322463
     },
@@ -1237,7 +1237,7 @@ const countries_data = [
             "Persian (Farsi)"
         ],
         "population": 83992953,
-        "flag": require("https://flagcdn.com/ir.svg"),
+        "flag": "https://flagcdn.com/ir.svg",
         "region": "Asia",
         "area": 1648195
     },
@@ -1249,7 +1249,7 @@ const countries_data = [
             "Kurdish"
         ],
         "population": 40222503,
-        "flag": require("https://flagcdn.com/iq.svg"),
+        "flag": "https://flagcdn.com/iq.svg",
         "region": "Asia",
         "area": 438317
     },
@@ -1261,7 +1261,7 @@ const countries_data = [
             "English"
         ],
         "population": 4994724,
-        "flag": require("https://flagcdn.com/ie.svg"),
+        "flag": "https://flagcdn.com/ie.svg",
         "region": "Europe",
         "area": 70273
     },
@@ -1273,7 +1273,7 @@ const countries_data = [
             "Manx"
         ],
         "population": 85032,
-        "flag": require("https://flagcdn.com/im.svg"),
+        "flag": "https://flagcdn.com/im.svg",
         "region": "Europe",
         "area": 572
     },
@@ -1285,7 +1285,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 9216900,
-        "flag": require("https://flagcdn.com/il.svg"),
+        "flag": "https://flagcdn.com/il.svg",
         "region": "Asia",
         "area": 20770
     },
@@ -1296,7 +1296,7 @@ const countries_data = [
             "Italian"
         ],
         "population": 59554023,
-        "flag": require("https://flagcdn.com/it.svg"),
+        "flag": "https://flagcdn.com/it.svg",
         "region": "Europe",
         "area": 301336
     },
@@ -1307,7 +1307,7 @@ const countries_data = [
             "English"
         ],
         "population": 2961161,
-        "flag": require("https://flagcdn.com/jm.svg"),
+        "flag": "https://flagcdn.com/jm.svg",
         "region": "Americas",
         "area": 10991
     },
@@ -1318,7 +1318,7 @@ const countries_data = [
             "Japanese"
         ],
         "population": 125836021,
-        "flag": require("https://flagcdn.com/jp.svg"),
+        "flag": "https://flagcdn.com/jp.svg",
         "region": "Asia",
         "area": 377930
     },
@@ -1330,7 +1330,7 @@ const countries_data = [
             "French"
         ],
         "population": 100800,
-        "flag": require("https://flagcdn.com/je.svg"),
+        "flag": "https://flagcdn.com/je.svg",
         "region": "Europe",
         "area": 116
     },
@@ -1341,7 +1341,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 10203140,
-        "flag": require("https://flagcdn.com/jo.svg"),
+        "flag": "https://flagcdn.com/jo.svg",
         "region": "Asia",
         "area": 89342
     },
@@ -1353,7 +1353,7 @@ const countries_data = [
             "Russian"
         ],
         "population": 18754440,
-        "flag": require("https://flagcdn.com/kz.svg"),
+        "flag": "https://flagcdn.com/kz.svg",
         "region": "Asia",
         "area": 2724900
     },
@@ -1365,7 +1365,7 @@ const countries_data = [
             "Swahili"
         ],
         "population": 53771300,
-        "flag": require("https://flagcdn.com/ke.svg"),
+        "flag": "https://flagcdn.com/ke.svg",
         "region": "Africa",
         "area": 580367
     },
@@ -1376,7 +1376,7 @@ const countries_data = [
             "English"
         ],
         "population": 119446,
-        "flag": require("https://flagcdn.com/ki.svg"),
+        "flag": "https://flagcdn.com/ki.svg",
         "region": "Oceania",
         "area": 811
     },
@@ -1387,7 +1387,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 4270563,
-        "flag": require("https://flagcdn.com/kw.svg"),
+        "flag": "https://flagcdn.com/kw.svg",
         "region": "Asia",
         "area": 17818
     },
@@ -1399,7 +1399,7 @@ const countries_data = [
             "Russian"
         ],
         "population": 6591600,
-        "flag": require("https://flagcdn.com/kg.svg"),
+        "flag": "https://flagcdn.com/kg.svg",
         "region": "Asia",
         "area": 199951
     },
@@ -1410,7 +1410,7 @@ const countries_data = [
             "Lao"
         ],
         "population": 7275556,
-        "flag": require("https://flagcdn.com/la.svg"),
+        "flag": "https://flagcdn.com/la.svg",
         "region": "Asia",
         "area": 236800
     },
@@ -1421,7 +1421,7 @@ const countries_data = [
             "Latvian"
         ],
         "population": 1901548,
-        "flag": require("https://flagcdn.com/lv.svg"),
+        "flag": "https://flagcdn.com/lv.svg",
         "region": "Europe",
         "area": 64559
     },
@@ -1433,7 +1433,7 @@ const countries_data = [
             "French"
         ],
         "population": 6825442,
-        "flag": require("https://flagcdn.com/lb.svg"),
+        "flag": "https://flagcdn.com/lb.svg",
         "region": "Asia",
         "area": 10452
     },
@@ -1445,7 +1445,7 @@ const countries_data = [
             "Southern Sotho"
         ],
         "population": 2142252,
-        "flag": require("https://flagcdn.com/ls.svg"),
+        "flag": "https://flagcdn.com/ls.svg",
         "region": "Africa",
         "area": 30355
     },
@@ -1456,7 +1456,7 @@ const countries_data = [
             "English"
         ],
         "population": 5057677,
-        "flag": require("https://flagcdn.com/lr.svg"),
+        "flag": "https://flagcdn.com/lr.svg",
         "region": "Africa",
         "area": 111369
     },
@@ -1467,7 +1467,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 6871287,
-        "flag": require("https://flagcdn.com/ly.svg"),
+        "flag": "https://flagcdn.com/ly.svg",
         "region": "Africa",
         "area": 1759540
     },
@@ -1478,7 +1478,7 @@ const countries_data = [
             "German"
         ],
         "population": 38137,
-        "flag": require("https://flagcdn.com/li.svg"),
+        "flag": "https://flagcdn.com/li.svg",
         "region": "Europe",
         "area": 160
     },
@@ -1489,7 +1489,7 @@ const countries_data = [
             "Lithuanian"
         ],
         "population": 2794700,
-        "flag": require("https://flagcdn.com/lt.svg"),
+        "flag": "https://flagcdn.com/lt.svg",
         "region": "Europe",
         "area": 65300
     },
@@ -1502,7 +1502,7 @@ const countries_data = [
             "Luxembourgish"
         ],
         "population": 632275,
-        "flag": require("https://flagcdn.com/lu.svg"),
+        "flag": "https://flagcdn.com/lu.svg",
         "region": "Europe",
         "area": 2586
     },
@@ -1513,7 +1513,7 @@ const countries_data = [
             "Portuguese"
         ],
         "population": 649342,
-        "flag": require("https://flagcdn.com/mo.svg"),
+        "flag": "https://flagcdn.com/mo.svg",
         "region": "Asia",
         "area": 30
     },
@@ -1524,7 +1524,7 @@ const countries_data = [
             "Macedonian"
         ],
         "population": 2083380,
-        "flag": require("https://flagcdn.com/mk.svg"),
+        "flag": "https://flagcdn.com/mk.svg",
         "region": "Europe",
         "area": 25713
     },
@@ -1536,7 +1536,7 @@ const countries_data = [
             "Malagasy"
         ],
         "population": 27691019,
-        "flag": require("https://flagcdn.com/mg.svg"),
+        "flag": "https://flagcdn.com/mg.svg",
         "region": "Africa",
         "area": 587041
     },
@@ -1548,7 +1548,7 @@ const countries_data = [
             "Chichewa"
         ],
         "population": 19129955,
-        "flag": require("https://flagcdn.com/mw.svg"),
+        "flag": "https://flagcdn.com/mw.svg",
         "region": "Africa",
         "area": 118484
     },
@@ -1559,7 +1559,7 @@ const countries_data = [
             "Malaysian"
         ],
         "population": 32365998,
-        "flag": require("https://flagcdn.com/my.svg"),
+        "flag": "https://flagcdn.com/my.svg",
         "region": "Asia",
         "area": 330803
     },
@@ -1570,7 +1570,7 @@ const countries_data = [
             "Divehi"
         ],
         "population": 540542,
-        "flag": require("https://flagcdn.com/mv.svg"),
+        "flag": "https://flagcdn.com/mv.svg",
         "region": "Asia",
         "area": 300
     },
@@ -1581,7 +1581,7 @@ const countries_data = [
             "French"
         ],
         "population": 20250834,
-        "flag": require("https://flagcdn.com/ml.svg"),
+        "flag": "https://flagcdn.com/ml.svg",
         "region": "Africa",
         "area": 1240192
     },
@@ -1593,7 +1593,7 @@ const countries_data = [
             "English"
         ],
         "population": 525285,
-        "flag": require("https://flagcdn.com/mt.svg"),
+        "flag": "https://flagcdn.com/mt.svg",
         "region": "Europe",
         "area": 316
     },
@@ -1605,7 +1605,7 @@ const countries_data = [
             "Marshallese"
         ],
         "population": 59194,
-        "flag": require("https://flagcdn.com/mh.svg"),
+        "flag": "https://flagcdn.com/mh.svg",
         "region": "Oceania",
         "area": 181
     },
@@ -1616,7 +1616,7 @@ const countries_data = [
             "French"
         ],
         "population": 378243,
-        "flag": require("https://flagcdn.com/mq.svg"),
+        "flag": "https://flagcdn.com/mq.svg",
         "region": "Americas"
     },
     {
@@ -1626,7 +1626,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 4649660,
-        "flag": require("https://flagcdn.com/mr.svg"),
+        "flag": "https://flagcdn.com/mr.svg",
         "region": "Africa",
         "area": 1030700
     },
@@ -1637,7 +1637,7 @@ const countries_data = [
             "English"
         ],
         "population": 1265740,
-        "flag": require("https://flagcdn.com/mu.svg"),
+        "flag": "https://flagcdn.com/mu.svg",
         "region": "Africa",
         "area": 2040
     },
@@ -1648,7 +1648,7 @@ const countries_data = [
             "French"
         ],
         "population": 226915,
-        "flag": require("https://flagcdn.com/yt.svg"),
+        "flag": "https://flagcdn.com/yt.svg",
         "region": "Africa"
     },
     {
@@ -1658,7 +1658,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 128932753,
-        "flag": require("https://flagcdn.com/mx.svg"),
+        "flag": "https://flagcdn.com/mx.svg",
         "region": "Americas",
         "area": 1964375
     },
@@ -1669,7 +1669,7 @@ const countries_data = [
             "English"
         ],
         "population": 115021,
-        "flag": require("https://flagcdn.com/fm.svg"),
+        "flag": "https://flagcdn.com/fm.svg",
         "region": "Oceania",
         "area": 702
     },
@@ -1680,7 +1680,7 @@ const countries_data = [
             "Romanian"
         ],
         "population": 2617820,
-        "flag": require("https://flagcdn.com/md.svg"),
+        "flag": "https://flagcdn.com/md.svg",
         "region": "Europe",
         "area": 33846
     },
@@ -1691,7 +1691,7 @@ const countries_data = [
             "French"
         ],
         "population": 39244,
-        "flag": require("https://flagcdn.com/mc.svg"),
+        "flag": "https://flagcdn.com/mc.svg",
         "region": "Europe",
         "area": 2.02
     },
@@ -1702,7 +1702,7 @@ const countries_data = [
             "Mongolian"
         ],
         "population": 3278292,
-        "flag": require("https://flagcdn.com/mn.svg"),
+        "flag": "https://flagcdn.com/mn.svg",
         "region": "Asia",
         "area": 1564110
     },
@@ -1716,7 +1716,7 @@ const countries_data = [
             "Croatian"
         ],
         "population": 621718,
-        "flag": require("https://flagcdn.com/me.svg"),
+        "flag": "https://flagcdn.com/me.svg",
         "region": "Europe",
         "area": 13812
     },
@@ -1727,7 +1727,7 @@ const countries_data = [
             "English"
         ],
         "population": 4922,
-        "flag": require("https://flagcdn.com/ms.svg"),
+        "flag": "https://flagcdn.com/ms.svg",
         "region": "Americas",
         "area": 102
     },
@@ -1738,7 +1738,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 36910558,
-        "flag": require("https://flagcdn.com/ma.svg"),
+        "flag": "https://flagcdn.com/ma.svg",
         "region": "Africa",
         "area": 446550
     },
@@ -1749,7 +1749,7 @@ const countries_data = [
             "Portuguese"
         ],
         "population": 31255435,
-        "flag": require("https://flagcdn.com/mz.svg"),
+        "flag": "https://flagcdn.com/mz.svg",
         "region": "Africa",
         "area": 801590
     },
@@ -1760,7 +1760,7 @@ const countries_data = [
             "Burmese"
         ],
         "population": 54409794,
-        "flag": require("https://flagcdn.com/mm.svg"),
+        "flag": "https://flagcdn.com/mm.svg",
         "region": "Asia",
         "area": 676578
     },
@@ -1772,7 +1772,7 @@ const countries_data = [
             "Afrikaans"
         ],
         "population": 2540916,
-        "flag": require("https://flagcdn.com/na.svg"),
+        "flag": "https://flagcdn.com/na.svg",
         "region": "Africa",
         "area": 825615
     },
@@ -1784,7 +1784,7 @@ const countries_data = [
             "Nauruan"
         ],
         "population": 10834,
-        "flag": require("https://flagcdn.com/nr.svg"),
+        "flag": "https://flagcdn.com/nr.svg",
         "region": "Oceania",
         "area": 21
     },
@@ -1795,7 +1795,7 @@ const countries_data = [
             "Nepali"
         ],
         "population": 29136808,
-        "flag": require("https://flagcdn.com/np.svg"),
+        "flag": "https://flagcdn.com/np.svg",
         "region": "Asia",
         "area": 147181
     },
@@ -1806,7 +1806,7 @@ const countries_data = [
             "Dutch"
         ],
         "population": 17441139,
-        "flag": require("https://flagcdn.com/nl.svg"),
+        "flag": "https://flagcdn.com/nl.svg",
         "region": "Europe",
         "area": 41850
     },
@@ -1817,7 +1817,7 @@ const countries_data = [
             "French"
         ],
         "population": 271960,
-        "flag": require("https://flagcdn.com/nc.svg"),
+        "flag": "https://flagcdn.com/nc.svg",
         "region": "Oceania",
         "area": 18575
     },
@@ -1829,7 +1829,7 @@ const countries_data = [
             "Māori"
         ],
         "population": 5084300,
-        "flag": require("https://flagcdn.com/nz.svg"),
+        "flag": "https://flagcdn.com/nz.svg",
         "region": "Oceania",
         "area": 270467
     },
@@ -1840,7 +1840,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 6624554,
-        "flag": require("https://flagcdn.com/ni.svg"),
+        "flag": "https://flagcdn.com/ni.svg",
         "region": "Americas",
         "area": 130373
     },
@@ -1851,7 +1851,7 @@ const countries_data = [
             "French"
         ],
         "population": 24206636,
-        "flag": require("https://flagcdn.com/ne.svg"),
+        "flag": "https://flagcdn.com/ne.svg",
         "region": "Africa",
         "area": 1267000
     },
@@ -1862,7 +1862,7 @@ const countries_data = [
             "English"
         ],
         "population": 206139587,
-        "flag": require("https://flagcdn.com/ng.svg"),
+        "flag": "https://flagcdn.com/ng.svg",
         "region": "Africa",
         "area": 923768
     },
@@ -1873,7 +1873,7 @@ const countries_data = [
             "English"
         ],
         "population": 1470,
-        "flag": require("https://flagcdn.com/nu.svg"),
+        "flag": "https://flagcdn.com/nu.svg",
         "region": "Oceania",
         "area": 260
     },
@@ -1884,7 +1884,7 @@ const countries_data = [
             "English"
         ],
         "population": 2302,
-        "flag": require("https://flagcdn.com/nf.svg"),
+        "flag": "https://flagcdn.com/nf.svg",
         "region": "Oceania",
         "area": 36
     },
@@ -1895,7 +1895,7 @@ const countries_data = [
             "Korean"
         ],
         "population": 25778815,
-        "flag": require("https://flagcdn.com/kp.svg"),
+        "flag": "https://flagcdn.com/kp.svg",
         "region": "Asia",
         "area": 120538
     },
@@ -1907,7 +1907,7 @@ const countries_data = [
             "Chamorro"
         ],
         "population": 57557,
-        "flag": require("https://flagcdn.com/mp.svg"),
+        "flag": "https://flagcdn.com/mp.svg",
         "region": "Oceania",
         "area": 464
     },
@@ -1920,7 +1920,7 @@ const countries_data = [
             "Norwegian Nynorsk"
         ],
         "population": 5379475,
-        "flag": require("https://flagcdn.com/no.svg"),
+        "flag": "https://flagcdn.com/no.svg",
         "region": "Europe",
         "area": 323802
     },
@@ -1931,7 +1931,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 5106622,
-        "flag": require("https://flagcdn.com/om.svg"),
+        "flag": "https://flagcdn.com/om.svg",
         "region": "Asia",
         "area": 309500
     },
@@ -1943,7 +1943,7 @@ const countries_data = [
             "English"
         ],
         "population": 220892331,
-        "flag": require("https://flagcdn.com/pk.svg"),
+        "flag": "https://flagcdn.com/pk.svg",
         "region": "Asia",
         "area": 881912
     },
@@ -1954,7 +1954,7 @@ const countries_data = [
             "English"
         ],
         "population": 18092,
-        "flag": require("https://flagcdn.com/pw.svg"),
+        "flag": "https://flagcdn.com/pw.svg",
         "region": "Oceania",
         "area": 459
     },
@@ -1965,7 +1965,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 4803269,
-        "flag": require("https://flagcdn.com/ps.svg"),
+        "flag": "https://flagcdn.com/ps.svg",
         "region": "Asia"
     },
     {
@@ -1975,7 +1975,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 4314768,
-        "flag": require("https://flagcdn.com/pa.svg"),
+        "flag": "https://flagcdn.com/pa.svg",
         "region": "Americas",
         "area": 75417
     },
@@ -1986,7 +1986,7 @@ const countries_data = [
             "English"
         ],
         "population": 8947027,
-        "flag": require("https://flagcdn.com/pg.svg"),
+        "flag": "https://flagcdn.com/pg.svg",
         "region": "Oceania",
         "area": 462840
     },
@@ -1998,7 +1998,7 @@ const countries_data = [
             "Guaraní"
         ],
         "population": 7132530,
-        "flag": require("https://flagcdn.com/py.svg"),
+        "flag": "https://flagcdn.com/py.svg",
         "region": "Americas",
         "area": 406752
     },
@@ -2009,7 +2009,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 32971846,
-        "flag": require("https://flagcdn.com/pe.svg"),
+        "flag": "https://flagcdn.com/pe.svg",
         "region": "Americas",
         "area": 1285216
     },
@@ -2020,7 +2020,7 @@ const countries_data = [
             "English"
         ],
         "population": 109581085,
-        "flag": require("https://flagcdn.com/ph.svg"),
+        "flag": "https://flagcdn.com/ph.svg",
         "region": "Asia",
         "area": 342353
     },
@@ -2031,7 +2031,7 @@ const countries_data = [
             "English"
         ],
         "population": 56,
-        "flag": require("https://flagcdn.com/pn.svg"),
+        "flag": "https://flagcdn.com/pn.svg",
         "region": "Oceania",
         "area": 47
     },
@@ -2042,7 +2042,7 @@ const countries_data = [
             "Polish"
         ],
         "population": 37950802,
-        "flag": require("https://flagcdn.com/pl.svg"),
+        "flag": "https://flagcdn.com/pl.svg",
         "region": "Europe",
         "area": 312679
     },
@@ -2053,7 +2053,7 @@ const countries_data = [
             "Portuguese"
         ],
         "population": 10305564,
-        "flag": require("https://flagcdn.com/pt.svg"),
+        "flag": "https://flagcdn.com/pt.svg",
         "region": "Europe",
         "area": 92090
     },
@@ -2065,7 +2065,7 @@ const countries_data = [
             "English"
         ],
         "population": 3194034,
-        "flag": require("https://flagcdn.com/pr.svg"),
+        "flag": "https://flagcdn.com/pr.svg",
         "region": "Americas",
         "area": 8870
     },
@@ -2076,7 +2076,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 2881060,
-        "flag": require("https://flagcdn.com/qa.svg"),
+        "flag": "https://flagcdn.com/qa.svg",
         "region": "Asia",
         "area": 11586
     },
@@ -2088,7 +2088,7 @@ const countries_data = [
             "Serbian"
         ],
         "population": 1775378,
-        "flag": require("https://flagcdn.com/xk.svg"),
+        "flag": "https://flagcdn.com/xk.svg",
         "region": "Europe",
         "area": 10908
     },
@@ -2099,7 +2099,7 @@ const countries_data = [
             "French"
         ],
         "population": 840974,
-        "flag": require("https://flagcdn.com/re.svg"),
+        "flag": "https://flagcdn.com/re.svg",
         "region": "Africa"
     },
     {
@@ -2109,7 +2109,7 @@ const countries_data = [
             "Romanian"
         ],
         "population": 19286123,
-        "flag": require("https://flagcdn.com/ro.svg"),
+        "flag": "https://flagcdn.com/ro.svg",
         "region": "Europe",
         "area": 238391
     },
@@ -2120,7 +2120,7 @@ const countries_data = [
             "Russian"
         ],
         "population": 144104080,
-        "flag": require("https://flagcdn.com/ru.svg"),
+        "flag": "https://flagcdn.com/ru.svg",
         "region": "Europe",
         "area": 17124442
     },
@@ -2133,7 +2133,7 @@ const countries_data = [
             "French"
         ],
         "population": 12952209,
-        "flag": require("https://flagcdn.com/rw.svg"),
+        "flag": "https://flagcdn.com/rw.svg",
         "region": "Africa",
         "area": 26338
     },
@@ -2144,7 +2144,7 @@ const countries_data = [
             "French"
         ],
         "population": 9417,
-        "flag": require("https://flagcdn.com/bl.svg"),
+        "flag": "https://flagcdn.com/bl.svg",
         "region": "Americas",
         "area": 21
     },
@@ -2155,7 +2155,7 @@ const countries_data = [
             "English"
         ],
         "population": 4255,
-        "flag": require("https://flagcdn.com/sh.svg"),
+        "flag": "https://flagcdn.com/sh.svg",
         "region": "Africa"
     },
     {
@@ -2165,7 +2165,7 @@ const countries_data = [
             "English"
         ],
         "population": 53192,
-        "flag": require("https://flagcdn.com/kn.svg"),
+        "flag": "https://flagcdn.com/kn.svg",
         "region": "Americas",
         "area": 261
     },
@@ -2176,7 +2176,7 @@ const countries_data = [
             "English"
         ],
         "population": 183629,
-        "flag": require("https://flagcdn.com/lc.svg"),
+        "flag": "https://flagcdn.com/lc.svg",
         "region": "Americas",
         "area": 616
     },
@@ -2189,7 +2189,7 @@ const countries_data = [
             "Dutch"
         ],
         "population": 38659,
-        "flag": require("https://flagcdn.com/mf.svg"),
+        "flag": "https://flagcdn.com/mf.svg",
         "region": "Americas",
         "area": 53
     },
@@ -2200,7 +2200,7 @@ const countries_data = [
             "French"
         ],
         "population": 6069,
-        "flag": require("https://flagcdn.com/pm.svg"),
+        "flag": "https://flagcdn.com/pm.svg",
         "region": "Americas",
         "area": 242
     },
@@ -2211,7 +2211,7 @@ const countries_data = [
             "English"
         ],
         "population": 110947,
-        "flag": require("https://flagcdn.com/vc.svg"),
+        "flag": "https://flagcdn.com/vc.svg",
         "region": "Americas",
         "area": 389
     },
@@ -2223,7 +2223,7 @@ const countries_data = [
             "English"
         ],
         "population": 198410,
-        "flag": require("https://flagcdn.com/ws.svg"),
+        "flag": "https://flagcdn.com/ws.svg",
         "region": "Oceania",
         "area": 2842
     },
@@ -2234,7 +2234,7 @@ const countries_data = [
             "Italian"
         ],
         "population": 33938,
-        "flag": require("https://flagcdn.com/sm.svg"),
+        "flag": "https://flagcdn.com/sm.svg",
         "region": "Europe",
         "area": 61
     },
@@ -2245,7 +2245,7 @@ const countries_data = [
             "Portuguese"
         ],
         "population": 219161,
-        "flag": require("https://flagcdn.com/st.svg"),
+        "flag": "https://flagcdn.com/st.svg",
         "region": "Africa",
         "area": 964
     },
@@ -2256,7 +2256,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 34813867,
-        "flag": require("https://flagcdn.com/sa.svg"),
+        "flag": "https://flagcdn.com/sa.svg",
         "region": "Asia",
         "area": 2149690
     },
@@ -2267,7 +2267,7 @@ const countries_data = [
             "French"
         ],
         "population": 16743930,
-        "flag": require("https://flagcdn.com/sn.svg"),
+        "flag": "https://flagcdn.com/sn.svg",
         "region": "Africa",
         "area": 196722
     },
@@ -2278,7 +2278,7 @@ const countries_data = [
             "Serbian"
         ],
         "population": 6908224,
-        "flag": require("https://flagcdn.com/rs.svg"),
+        "flag": "https://flagcdn.com/rs.svg",
         "region": "Europe",
         "area": 88361
     },
@@ -2290,7 +2290,7 @@ const countries_data = [
             "English"
         ],
         "population": 98462,
-        "flag": require("https://flagcdn.com/sc.svg"),
+        "flag": "https://flagcdn.com/sc.svg",
         "region": "Africa",
         "area": 452
     },
@@ -2301,7 +2301,7 @@ const countries_data = [
             "English"
         ],
         "population": 7976985,
-        "flag": require("https://flagcdn.com/sl.svg"),
+        "flag": "https://flagcdn.com/sl.svg",
         "region": "Africa",
         "area": 71740
     },
@@ -2315,7 +2315,7 @@ const countries_data = [
             "Chinese"
         ],
         "population": 5685807,
-        "flag": require("https://flagcdn.com/sg.svg"),
+        "flag": "https://flagcdn.com/sg.svg",
         "region": "Asia",
         "area": 710
     },
@@ -2327,7 +2327,7 @@ const countries_data = [
             "English"
         ],
         "population": 40812,
-        "flag": require("https://flagcdn.com/sx.svg"),
+        "flag": "https://flagcdn.com/sx.svg",
         "region": "Americas",
         "area": 34
     },
@@ -2338,7 +2338,7 @@ const countries_data = [
             "Slovak"
         ],
         "population": 5458827,
-        "flag": require("https://flagcdn.com/sk.svg"),
+        "flag": "https://flagcdn.com/sk.svg",
         "region": "Europe",
         "area": 49037
     },
@@ -2349,7 +2349,7 @@ const countries_data = [
             "Slovene"
         ],
         "population": 2100126,
-        "flag": require("https://flagcdn.com/si.svg"),
+        "flag": "https://flagcdn.com/si.svg",
         "region": "Europe",
         "area": 20273
     },
@@ -2360,7 +2360,7 @@ const countries_data = [
             "English"
         ],
         "population": 686878,
-        "flag": require("https://flagcdn.com/sb.svg"),
+        "flag": "https://flagcdn.com/sb.svg",
         "region": "Oceania",
         "area": 28896
     },
@@ -2372,7 +2372,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 15893219,
-        "flag": require("https://flagcdn.com/so.svg"),
+        "flag": "https://flagcdn.com/so.svg",
         "region": "Africa",
         "area": 637657
     },
@@ -2392,7 +2392,7 @@ const countries_data = [
             "Zulu"
         ],
         "population": 59308690,
-        "flag": require("https://flagcdn.com/za.svg"),
+        "flag": "https://flagcdn.com/za.svg",
         "region": "Africa",
         "area": 1221037
     },
@@ -2403,7 +2403,7 @@ const countries_data = [
             "English"
         ],
         "population": 30,
-        "flag": require("https://flagcdn.com/gs.svg"),
+        "flag": "https://flagcdn.com/gs.svg",
         "region": "Americas"
     },
     {
@@ -2413,7 +2413,7 @@ const countries_data = [
             "Korean"
         ],
         "population": 51780579,
-        "flag": require("https://flagcdn.com/kr.svg"),
+        "flag": "https://flagcdn.com/kr.svg",
         "region": "Asia",
         "area": 100210
     },
@@ -2424,7 +2424,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 47351567,
-        "flag": require("https://flagcdn.com/es.svg"),
+        "flag": "https://flagcdn.com/es.svg",
         "region": "Europe",
         "area": 505992
     },
@@ -2436,7 +2436,7 @@ const countries_data = [
             "Tamil"
         ],
         "population": 21919000,
-        "flag": require("https://flagcdn.com/lk.svg"),
+        "flag": "https://flagcdn.com/lk.svg",
         "region": "Asia",
         "area": 65610
     },
@@ -2448,7 +2448,7 @@ const countries_data = [
             "English"
         ],
         "population": 43849269,
-        "flag": require("https://flagcdn.com/sd.svg"),
+        "flag": "https://flagcdn.com/sd.svg",
         "region": "Africa",
         "area": 1886068
     },
@@ -2459,7 +2459,7 @@ const countries_data = [
             "English"
         ],
         "population": 11193729,
-        "flag": require("https://flagcdn.com/ss.svg"),
+        "flag": "https://flagcdn.com/ss.svg",
         "region": "Africa",
         "area": 619745
     },
@@ -2470,7 +2470,7 @@ const countries_data = [
             "Dutch"
         ],
         "population": 586634,
-        "flag": require("https://flagcdn.com/sr.svg"),
+        "flag": "https://flagcdn.com/sr.svg",
         "region": "Americas",
         "area": 163820
     },
@@ -2481,7 +2481,7 @@ const countries_data = [
             "Norwegian"
         ],
         "population": 2562,
-        "flag": require("https://flagcdn.com/sj.svg"),
+        "flag": "https://flagcdn.com/sj.svg",
         "region": "Europe"
     },
     {
@@ -2492,7 +2492,7 @@ const countries_data = [
             "Swati"
         ],
         "population": 1160164,
-        "flag": require("https://flagcdn.com/sz.svg"),
+        "flag": "https://flagcdn.com/sz.svg",
         "region": "Africa",
         "area": 17364
     },
@@ -2503,7 +2503,7 @@ const countries_data = [
             "Swedish"
         ],
         "population": 10353442,
-        "flag": require("https://flagcdn.com/se.svg"),
+        "flag": "https://flagcdn.com/se.svg",
         "region": "Europe",
         "area": 450295
     },
@@ -2517,7 +2517,7 @@ const countries_data = [
             "Romansh"
         ],
         "population": 8636896,
-        "flag": require("https://flagcdn.com/ch.svg"),
+        "flag": "https://flagcdn.com/ch.svg",
         "region": "Europe",
         "area": 41284
     },
@@ -2528,7 +2528,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 17500657,
-        "flag": require("https://flagcdn.com/sy.svg"),
+        "flag": "https://flagcdn.com/sy.svg",
         "region": "Asia",
         "area": 185180
     },
@@ -2539,7 +2539,7 @@ const countries_data = [
             "Chinese"
         ],
         "population": 23503349,
-        "flag": require("https://flagcdn.com/tw.svg"),
+        "flag": "https://flagcdn.com/tw.svg",
         "region": "Asia",
         "area": 36193
     },
@@ -2551,7 +2551,7 @@ const countries_data = [
             "Russian"
         ],
         "population": 9537642,
-        "flag": require("https://flagcdn.com/tj.svg"),
+        "flag": "https://flagcdn.com/tj.svg",
         "region": "Asia",
         "area": 143100
     },
@@ -2563,7 +2563,7 @@ const countries_data = [
             "English"
         ],
         "population": 59734213,
-        "flag": require("https://flagcdn.com/tz.svg"),
+        "flag": "https://flagcdn.com/tz.svg",
         "region": "Africa",
         "area": 945087
     },
@@ -2574,7 +2574,7 @@ const countries_data = [
             "Thai"
         ],
         "population": 69799978,
-        "flag": require("https://flagcdn.com/th.svg"),
+        "flag": "https://flagcdn.com/th.svg",
         "region": "Asia",
         "area": 513120
     },
@@ -2585,7 +2585,7 @@ const countries_data = [
             "Portuguese"
         ],
         "population": 1318442,
-        "flag": require("https://flagcdn.com/tl.svg"),
+        "flag": "https://flagcdn.com/tl.svg",
         "region": "Asia",
         "area": 14874
     },
@@ -2596,7 +2596,7 @@ const countries_data = [
             "French"
         ],
         "population": 8278737,
-        "flag": require("https://flagcdn.com/tg.svg"),
+        "flag": "https://flagcdn.com/tg.svg",
         "region": "Africa",
         "area": 56785
     },
@@ -2607,7 +2607,7 @@ const countries_data = [
             "English"
         ],
         "population": 1411,
-        "flag": require("https://flagcdn.com/tk.svg"),
+        "flag": "https://flagcdn.com/tk.svg",
         "region": "Oceania",
         "area": 12
     },
@@ -2619,7 +2619,7 @@ const countries_data = [
             "Tonga (Tonga Islands)"
         ],
         "population": 105697,
-        "flag": require("https://flagcdn.com/to.svg"),
+        "flag": "https://flagcdn.com/to.svg",
         "region": "Oceania",
         "area": 747
     },
@@ -2630,7 +2630,7 @@ const countries_data = [
             "English"
         ],
         "population": 1399491,
-        "flag": require("https://flagcdn.com/tt.svg"),
+        "flag": "https://flagcdn.com/tt.svg",
         "region": "Americas",
         "area": 5130
     },
@@ -2641,7 +2641,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 11818618,
-        "flag": require("https://flagcdn.com/tn.svg"),
+        "flag": "https://flagcdn.com/tn.svg",
         "region": "Africa",
         "area": 163610
     },
@@ -2652,7 +2652,7 @@ const countries_data = [
             "Turkish"
         ],
         "population": 84339067,
-        "flag": require("https://flagcdn.com/tr.svg"),
+        "flag": "https://flagcdn.com/tr.svg",
         "region": "Asia",
         "area": 783562
     },
@@ -2664,7 +2664,7 @@ const countries_data = [
             "Russian"
         ],
         "population": 6031187,
-        "flag": require("https://flagcdn.com/tm.svg"),
+        "flag": "https://flagcdn.com/tm.svg",
         "region": "Asia",
         "area": 488100
     },
@@ -2675,7 +2675,7 @@ const countries_data = [
             "English"
         ],
         "population": 38718,
-        "flag": require("https://flagcdn.com/tc.svg"),
+        "flag": "https://flagcdn.com/tc.svg",
         "region": "Americas",
         "area": 948
     },
@@ -2686,7 +2686,7 @@ const countries_data = [
             "English"
         ],
         "population": 11792,
-        "flag": require("https://flagcdn.com/tv.svg"),
+        "flag": "https://flagcdn.com/tv.svg",
         "region": "Oceania",
         "area": 26
     },
@@ -2698,7 +2698,7 @@ const countries_data = [
             "Swahili"
         ],
         "population": 45741000,
-        "flag": require("https://flagcdn.com/ug.svg"),
+        "flag": "https://flagcdn.com/ug.svg",
         "region": "Africa",
         "area": 241550
     },
@@ -2709,7 +2709,7 @@ const countries_data = [
             "Ukrainian"
         ],
         "population": 44134693,
-        "flag": require("https://flagcdn.com/ua.svg"),
+        "flag": "https://flagcdn.com/ua.svg",
         "region": "Europe",
         "area": 603700
     },
@@ -2720,7 +2720,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 9890400,
-        "flag": require("https://flagcdn.com/ae.svg"),
+        "flag": "https://flagcdn.com/ae.svg",
         "region": "Asia",
         "area": 83600
     },
@@ -2731,7 +2731,7 @@ const countries_data = [
             "English"
         ],
         "population": 67215293,
-        "flag": require("https://flagcdn.com/gb.svg"),
+        "flag": "https://flagcdn.com/gb.svg",
         "region": "Europe",
         "area": 242900
     },
@@ -2742,7 +2742,7 @@ const countries_data = [
             "English"
         ],
         "population": 329484123,
-        "flag": require("https://flagcdn.com/us.svg"),
+        "flag": "https://flagcdn.com/us.svg",
         "region": "Americas",
         "area": 9629091
     },
@@ -2753,7 +2753,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 3473727,
-        "flag": require("https://flagcdn.com/uy.svg"),
+        "flag": "https://flagcdn.com/uy.svg",
         "region": "Americas",
         "area": 181034
     },
@@ -2765,7 +2765,7 @@ const countries_data = [
             "Russian"
         ],
         "population": 34232050,
-        "flag": require("https://flagcdn.com/uz.svg"),
+        "flag": "https://flagcdn.com/uz.svg",
         "region": "Asia",
         "area": 447400
     },
@@ -2778,7 +2778,7 @@ const countries_data = [
             "French"
         ],
         "population": 307150,
-        "flag": require("https://flagcdn.com/vu.svg"),
+        "flag": "https://flagcdn.com/vu.svg",
         "region": "Oceania",
         "area": 12189
     },
@@ -2789,7 +2789,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 28435943,
-        "flag": require("https://flagcdn.com/ve.svg"),
+        "flag": "https://flagcdn.com/ve.svg",
         "region": "Americas",
         "area": 916445
     },
@@ -2800,7 +2800,7 @@ const countries_data = [
             "Vietnamese"
         ],
         "population": 97338583,
-        "flag": require("https://flagcdn.com/vn.svg"),
+        "flag": "https://flagcdn.com/vn.svg",
         "region": "Asia",
         "area": 331212
     },
@@ -2811,7 +2811,7 @@ const countries_data = [
             "French"
         ],
         "population": 11750,
-        "flag": require("https://flagcdn.com/wf.svg"),
+        "flag": "https://flagcdn.com/wf.svg",
         "region": "Oceania",
         "area": 142
     },
@@ -2822,7 +2822,7 @@ const countries_data = [
             "Spanish"
         ],
         "population": 510713,
-        "flag": require("https://flagcdn.com/eh.svg"),
+        "flag": "https://flagcdn.com/eh.svg",
         "region": "Africa",
         "area": 266000
     },
@@ -2833,7 +2833,7 @@ const countries_data = [
             "Arabic"
         ],
         "population": 29825968,
-        "flag": require("https://flagcdn.com/ye.svg"),
+        "flag": "https://flagcdn.com/ye.svg",
         "region": "Asia",
         "area": 527968
     },
@@ -2844,7 +2844,7 @@ const countries_data = [
             "English"
         ],
         "population": 18383956,
-        "flag": require("https://flagcdn.com/zm.svg"),
+        "flag": "https://flagcdn.com/zm.svg",
         "region": "Africa",
         "area": 752618
     },
@@ -2857,7 +2857,7 @@ const countries_data = [
             "Northern Ndebele"
         ],
         "population": 14862927,
-        "flag": require("https://flagcdn.com/zw.svg"),
+        "flag": "https://flagcdn.com/zw.svg",
         "region": "Africa",
         "area": 390757
     }
