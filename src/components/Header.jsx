@@ -5,7 +5,6 @@ import "./Header.css";
 export default function Header() {
   const [light, setLight] = React.useState(true);
   const toggle = () => {
-    
     if (light === true) {
       setLight(false);
     } else {

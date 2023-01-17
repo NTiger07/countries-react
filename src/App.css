@@ -21,6 +21,18 @@ button {
   --white-opposite: #2b3743;
   --off-white-opposite: #202d36;
 }
+.darkback {
+  background-color: #202d36;
+}
+.darkelem {
+  background-color: #2b3743;
+}
+.lightback {
+  background-color: #fff;
+}
+.lightelem {
+  background-color: #fafafa;
+}
 .svgs {
   width: 20px;
   margin-right: 10px;
