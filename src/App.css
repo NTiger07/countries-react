@@ -15,6 +15,12 @@ a {
 button {
   cursor: pointer;
 }
+:root {
+  --white: #fff;
+  --off-white: #fafafa;
+  --white-opposite: #2b3743;
+  --off-white-opposite: #202d36;
+}
 .svgs {
   width: 20px;
   margin-right: 10px;

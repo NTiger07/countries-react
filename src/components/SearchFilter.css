@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 30px 5vw;
-  background-color: hsl(0, 0%, 98%);
+  background-color: var(--off-white);
 }
 .search_container {
   display: flex;
@@ -20,7 +20,7 @@ input {
   width: 100%;
   color: #858585;
   font-size: 16px;
-  background-color: white;
+  background-color: var(--white);
 }
 .search_container button {
   background-color: white;
@@ -51,4 +51,5 @@ select {
   border-radius: 9px;
   padding-left: 10px;
   cursor: pointer;
+  background-color: var(--white);
 }
