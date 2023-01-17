@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import Header from "./Header";
 import "./CountriesDetails.css";
 import arrow from "../assets/arrow-left.svg";
 
@@ -9,7 +8,6 @@ export default class CountriesDetails extends Component {
     return (
       <>
         {" "}
-        <Header />
         <div className="countries_details-container">
           <Link to="/">
             <button id="backButton">
