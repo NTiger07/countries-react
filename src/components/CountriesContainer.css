@@ -12,6 +12,5 @@
 }
 .countries_container a {
   color: black;
-  width: 288.88px;
-  background-color: red;
+  padding: 10px;
 }
