@@ -4,7 +4,7 @@ import "./CountriesItem.css";
 
 export default function CountriesItem(props) {
   return (
-    <Link to="/details">
+    <Link to={`/countries/${props.id}`}>
       <div className="countries_item">
         <div className="countries_image">
           <img src={props.flag} alt="country_image" />

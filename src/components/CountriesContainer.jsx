@@ -5,8 +5,8 @@ import "./CountriesContainer.css";
 import SearchFilter from "./SearchFilter";
 
 export default function CountriesContainer() {
-  const countries = data.slice(0, 8).map((item) => {
-    return <CountriesItem key={item.id} />;
+  const countries = data.map((country) => {
+    return <CountriesItem key={country.id} />;
   });
   return (
     <div className="countries_container">
