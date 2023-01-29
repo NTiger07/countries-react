@@ -6,7 +6,7 @@ import arrow from "../assets/arrow-left.svg";
 
 export default function CountriesDetails({ match }) {
   const { id } = useParams();
-  const country = countries.find((c) => String(c._id) === id);
+  const country = countries.find((c) => String(c.id) === id);
 
   if (!country) {
     return (

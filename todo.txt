@@ -1,3 +1,4 @@
 dark mode
 item to mas informacion
 install public sans font
+error boundary
