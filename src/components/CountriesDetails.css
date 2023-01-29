@@ -28,6 +28,10 @@
 .details_image {
   background-color: black;
   width: 50%;
+  overflow: hidden;
+}
+.details_image img {
+  height: 100%;
 }
 .details_content {
   display: flex;

@@ -20,7 +20,7 @@ export default function App() {
             }
           />
           <Route
-            path="countries/:id"
+            path="/countries/:id"
             element={
               <>
                 <Header />
