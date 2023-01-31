@@ -6,6 +6,7 @@ import CountriesDetails from "./CountriesDetails";
 import "../App.css";
 
 export default function App() {
+  const [lightmode, setLightmode] = React.useState(true);
   return (
     <div className="main_container">
       <BrowserRouter>
@@ -14,7 +15,7 @@ export default function App() {
             path="/"
             element={
               <>
-                <Header />
+                <Header lightmode={lightmode} />
                 <CountriesContainer />
               </>
             }
@@ -23,7 +24,7 @@ export default function App() {
             path="/countries/:id"
             element={
               <>
-                <Header />
+                <Header lightmode={lightmode} />
                 <CountriesDetails />
               </>
             }

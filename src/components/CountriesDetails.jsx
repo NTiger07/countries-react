@@ -4,7 +4,7 @@ import countries from "./countries";
 import "./CountriesDetails.css";
 import arrow from "../assets/arrow-left.svg";
 
-export default function CountriesDetails({ match }) {
+export default function CountriesDetails() {
   const { id } = useParams();
   const country = countries.find((c) => String(c.id) === id);
 
