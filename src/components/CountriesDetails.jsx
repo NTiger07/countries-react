@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
+import Error from "./Error";
 import countries from "./countries";
 import "./CountriesDetails.css";
 import arrow from "../assets/arrow-left.svg";
@@ -9,19 +10,7 @@ export default function CountriesDetails() {
   const country = countries.find((c) => String(c.id) === id);
 
   if (!country) {
-    return (
-      <>
-        <Link to="/">
-          <button id="backButton">
-            <span>
-              <img src={arrow} alt="arrow" />
-              Back
-            </span>
-          </button>
-        </Link>
-        <h1>Error 404</h1>
-      </>
-    );
+    return <Error />;
   }
   return (
     <div className="countries_details-container">
