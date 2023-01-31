@@ -7,6 +7,10 @@ import "../App.css";
 
 export default function App() {
   const [lightmode, setLightmode] = React.useState(true);
+  async function toggle() {
+    setLightmode(!lightmode);
+    console.log("toggled");
+  }
   return (
     <div className="main_container">
       <BrowserRouter>
@@ -15,7 +19,7 @@ export default function App() {
             path="/"
             element={
               <>
-                <Header lightmode={lightmode} />
+                <Header toggle={toggle} lightmode={lightmode} />
                 <CountriesContainer />
               </>
             }
@@ -24,7 +28,7 @@ export default function App() {
             path="/countries/:id"
             element={
               <>
-                <Header lightmode={lightmode} />
+                <Header toggle={toggle} lightmode={lightmode} />
                 <CountriesDetails />
               </>
             }

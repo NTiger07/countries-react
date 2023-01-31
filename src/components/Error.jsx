@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Error.css";
+import "./Error.css";
 import arrow from "../assets/arrow-left.svg";
 
 export default function Error() {

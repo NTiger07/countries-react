@@ -2,19 +2,14 @@ import React from "react";
 import moon from "../assets/moon.svg";
 import "./Header.css";
 
-export default function Header() {
-  const [light, setLight] = React.useState(true);
-  const toggle = () => {
-    if (light === true) {
-      setLight(false);
-    } else {
-      setLight(true);
-    }
-  };
+export default function Header(props) {
+  if (props.lightmode === false) {
+    document.getElementById("test").style.backgroundColor = "red";
+  }
   return (
-    <div className="header_container">
+    <div className="header_container" id="test">
       <h1>Where in the world?</h1>
-      <span onClick={toggle}>
+      <span onClick={props.toggle}>
         <img src={moon} alt="moon" className="svgs" />
         Dark mode
       </span>
