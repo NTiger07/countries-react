@@ -2,9 +2,6 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 5vw;
-  /* position: absolute;
-  top: 0;
-  width: 100%; */
   box-shadow: 2px 2px 10px #858585;
 }
 .header_container span {
