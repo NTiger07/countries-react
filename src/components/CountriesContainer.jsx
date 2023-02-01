@@ -5,7 +5,7 @@ import countries from "./countries";
 import "./CountriesContainer.css";
 import SearchFilter from "./SearchFilter";
 
-export default function CountriesContainer() {
+export default function CountriesContainer(props) {
   return (
     <div className="countries_container">
       <SearchFilter />
@@ -19,6 +19,7 @@ export default function CountriesContainer() {
               population={population}
               region={region}
               capital={capital}
+              lightmode={props.lightmode}
             />
           </Link>
         ))}

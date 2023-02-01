@@ -20,7 +20,7 @@ export default function App() {
             element={
               <>
                 <Header toggle={toggle} lightmode={lightmode} />
-                <CountriesContainer />
+                <CountriesContainer lightmode={lightmode} />
               </>
             }
           />
@@ -29,7 +29,7 @@ export default function App() {
             element={
               <>
                 <Header toggle={toggle} lightmode={lightmode} />
-                <CountriesDetails />
+                <CountriesDetails lightmode={lightmode} />
               </>
             }
           />
