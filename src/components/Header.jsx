@@ -3,8 +3,11 @@ import moon from "../assets/moon.svg";
 import "./Header.css";
 
 export default function Header(props) {
+  const test = document.getElementById("test");
   if (props.lightmode === false) {
-    document.getElementById("test").style.backgroundColor = "red";
+    test.style.backgroundColor = "#2B3743";
+  } else {
+    test.style.backgroundColor = "#fff";
   }
   return (
     <div className="header_container" id="test">
