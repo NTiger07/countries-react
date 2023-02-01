@@ -2,12 +2,12 @@ import React from "react";
 import "./CountriesItem.css";
 
 export default function CountriesItem(props) {
-  const itemtest = document.getElementById("itemtest");
-  if (props.lightmode === false) {
-    itemtest.style.backgroundColor = "#2B3743";
-  } else {
-    itemtest.style.backgroundColor = "#fff";
-  }
+  // const itemtest = document.getElementById("itemtest");
+  // if (props.lightmode === false) {
+  //   itemtest.style.backgroundColor = "#2B3743";
+  // } else {
+  //   itemtest.style.backgroundColor = "#fff";
+  // }
   return (
     <div className="countries_item" id="itemtest">
       <div className="countries_image">

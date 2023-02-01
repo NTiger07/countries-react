@@ -6,8 +6,14 @@ import "./CountriesContainer.css";
 import SearchFilter from "./SearchFilter";
 
 export default function CountriesContainer(props) {
+  // const containtest = document.getElementById("containtest");
+  // if (props.lightmode === false) {
+  //   containtest.style.backgroundColor = "#202d36";
+  // } else {
+  //   containtest.style.backgroundColor = "#fafafa";
+  // }
   return (
-    <div className="countries_container">
+    <div className="countries_container" id="containtest">
       <SearchFilter />
       <div className="countries_container-content">
         {countries.map(({ id, name, capital, population, flag, region }) => (
