@@ -12,12 +12,7 @@ export default function CountriesDetails() {
   if (!country) {
     return <Error />;
   }
-  // const detailtest = document.getElementById("detailtest");
-  // if (props.lightmode === false) {
-  //   detailtest.style.backgroundColor = "#202d36";
-  // } else {
-  //   detailtest.style.backgroundColor = "#fafafa";
-  // }
+
   return (
     <div className="countries_details-container" id="detailtest">
       <Link to="/">
