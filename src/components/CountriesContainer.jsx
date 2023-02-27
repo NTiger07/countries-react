@@ -13,22 +13,26 @@ export default function CountriesContainer(props) {
   const [isLoading, setIsLoading] = React.useState(true);
 
   const getCountry = async (searchValue) => {
-    setIsLoading(false);
-    const urlsearch = ``;
-    const result = await Axios.get(urlsearch).catch(() => {
-      setIsLoading(true);
-    });
-    const resultJson = await result.data.results;
-    if (resultJson) {
-      setCountries(resultJson);
-    }
+    // setIsLoading(false);
+    const urlsearch = `https://api.countries.com/search=${searchValue}filter=${filterValue}`;
+    console.log(urlsearch);
+    // const result = await Axios.get(urlsearch).catch(() => {
+    //   setIsLoading(true);
+    // });
+    // const resultJson = await result.data.results;
+    // if (resultJson) {
+    //   setCountries(resultJson);
+    // }
   };
   useEffect(() => {
     getCountry(searchValue);
   }, [searchValue]);
   return (
     <div className="countries_container" id="containtest">
-      <SearchFilter setSearchValue={setSearchValue} />
+      <SearchFilter
+        setSearchValue={setSearchValue}
+        setFilterValue={setFilterValue}
+      />
       <div className="countries_container-content">
         {countriesData.map(
           ({ id, name, capital, population, flag, region }) => (

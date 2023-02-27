@@ -5,6 +5,7 @@ import "./SearchFilter.css";
 export default function SearchFilter(props) {
   var continent = useRef("");
 
+  props.setFilterValue(continent.current.value);
   return (
     <div className="searchfilter_container">
       <span className="search_container">
@@ -20,7 +21,7 @@ export default function SearchFilter(props) {
       </span>
       <span className="filter_container">
         <select name="region" id="filter" ref={continent}>
-          <option value="/all">Filter by Region</option>
+          <option value="/all">All</option>
           <option value="/region/africa">Africa</option>
           <option value="/region/america">America</option>
           <option value="/region/asia">Asia</option>
