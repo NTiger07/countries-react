@@ -1,11 +1,13 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import search from "../assets/search.svg";
 import "./SearchFilter.css";
 
 export default function SearchFilter(props) {
   var continent = useRef("");
-
-  props.setFilterValue(continent.current.value);
+  useEffect(() => {
+    const currentValue = continent.current.value;
+    props.setFilterValue(currentValue);
+  }, [continent.current.value]);
   return (
     <div className="searchfilter_container">
       <span className="search_container">
