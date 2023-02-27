@@ -9,7 +9,7 @@ import SearchFilter from "./SearchFilter";
 export default function CountriesContainer(props) {
   const [countries, setCountries] = useState([]);
   const [searchValue, setSearchValue] = useState("");
-  const [toggleFilter, setToggleFilter] = React.useState(true);
+  const [filterValue, setFilterValue] = useState("");
   const [isLoading, setIsLoading] = React.useState(true);
 
   const getCountry = async (searchValue) => {
@@ -28,7 +28,7 @@ export default function CountriesContainer(props) {
   }, [searchValue]);
   return (
     <div className="countries_container" id="containtest">
-      <SearchFilter />
+      <SearchFilter setSearchValue={setSearchValue} />
       <div className="countries_container-content">
         {countriesData.map(
           ({ id, name, capital, population, flag, region }) => (

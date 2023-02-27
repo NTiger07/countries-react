@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 import search from "../assets/search.svg";
 import "./SearchFilter.css";
 
-export default function SearchFilter() {
+export default function SearchFilter(props) {
+  var continent = useRef("");
+
   return (
     <div className="searchfilter_container">
       <span className="search_container">
@@ -13,10 +15,11 @@ export default function SearchFilter() {
           type="text"
           id="search_input"
           placeholder="Search for a country..."
+          onChange={(e) => props.setSearchValue(e.target.value)}
         />
       </span>
       <span className="filter_container">
-        <select name="region" id="filter">
+        <select name="region" id="filter" ref={continent}>
           <option value="/all">Filter by Region</option>
           <option value="/region/africa">Africa</option>
           <option value="/region/america">America</option>
