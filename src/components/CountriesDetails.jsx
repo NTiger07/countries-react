@@ -28,11 +28,11 @@ export default function CountriesDetails(props) {
         </div>
         <div className="details_content">
           <h1>{country.name.official}</h1>
-          {/* <div className="points-container">
+          <div className="points-container">
             <div className="content_pointsone">
               <span>
                 <b>Native Name: </b>
-                {country.capital}
+                {/* {country.name.nativeName[0].common} */}
               </span>
               <span>
                 <b>Population: </b>
@@ -44,7 +44,7 @@ export default function CountriesDetails(props) {
               </span>
               <span>
                 <b>Sub Region: </b>
-                {country.region}
+                {country.subregion}
               </span>
               <span>
                 <b>Capital: </b>
@@ -53,10 +53,12 @@ export default function CountriesDetails(props) {
             </div>
             <div className="content_pointstwo">
               <span>
-                <b>Top Level Domain: </b>-
+                <b>Top Level Domain: </b>
+                {country.tld}
               </span>
               <span>
-                <b>Currencies: </b>-
+                <b>Currencies: </b>
+                {country.currencies}
               </span>
               <span>
                 <b>Languages: </b>
@@ -64,7 +66,7 @@ export default function CountriesDetails(props) {
               </span>
             </div>
           </div>
-          <div className="details_border">
+          {/* <div className="details_border">
             <b>Border Countries: </b>
             <span>-</span>
             <span>-</span>
