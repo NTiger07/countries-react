@@ -1,7 +1,7 @@
 dark mode
 
-filter
 error boundary
 main api call
+globe logo for favicon
 
 responsive

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Axios from "axios";
 import { Link } from "react-router-dom";
 import CountriesItem from "./CountriesItem";
+import LoadingSpinner from "./LoadingSpinner";
 import countriesData from "./countries";
 import "./CountriesContainer.css";
 import SearchFilter from "./SearchFilter";
@@ -12,9 +13,10 @@ export default function CountriesContainer(props) {
   const [filterValue, setFilterValue] = useState("");
   const [isLoading, setIsLoading] = React.useState(true);
 
-  const getCountry = async (searchValue) => {
+  const getCountry = async (searchValue, filterValue) => {
     // setIsLoading(false);
-    const urlsearch = `https://api.countries.com/search=${searchValue}filter=${filterValue}`;
+    const url = "https://restcountries.com/v3.1/all";
+    const urlsearch = `https://restcountries.com/v3.1/name/${searchValue}/region/${filterValue}`;
     console.log(urlsearch);
     // const result = await Axios.get(urlsearch).catch(() => {
     //   setIsLoading(true);
@@ -25,8 +27,8 @@ export default function CountriesContainer(props) {
     // }
   };
   useEffect(() => {
-    getCountry(searchValue);
-  }, [searchValue]);
+    getCountry(searchValue, filterValue);
+  }, [searchValue, filterValue]);
   return (
     <div className="countries_container" id="containtest">
       <SearchFilter
@@ -48,6 +50,11 @@ export default function CountriesContainer(props) {
               />
             </Link>
           )
+        )}
+        {isLoading && (
+          <div className="loading_container">
+            <LoadingSpinner />
+          </div>
         )}
       </div>
     </div>

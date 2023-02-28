@@ -4,10 +4,12 @@ import "./SearchFilter.css";
 
 export default function SearchFilter(props) {
   var continent = useRef("");
+
   useEffect(() => {
     const currentValue = continent.current.value;
     props.setFilterValue(currentValue);
-  }, [continent.current.value]);
+  }, [continent.current.value, props]);
+
   return (
     <div className="searchfilter_container">
       <span className="search_container">
