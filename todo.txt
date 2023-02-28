@@ -1,6 +1,5 @@
 dark mode
 
 main api call
-favicon
 
 responsive

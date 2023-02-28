@@ -20,7 +20,7 @@ export default function SearchFilter(props) {
           type="text"
           id="search_input"
           placeholder="Search for a country..."
-          onChange={(e) => props.setSearchValue(e.target.value)}
+          onChange={(e) => props.setSearchValue(`/name/${e.target.value}`)}
         />
       </span>
       <span className="filter_container">

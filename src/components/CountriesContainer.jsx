@@ -3,29 +3,27 @@ import Axios from "axios";
 import { Link } from "react-router-dom";
 import CountriesItem from "./CountriesItem";
 import LoadingSpinner from "./LoadingSpinner";
-import countriesData from "./countries";
-import "./CountriesContainer.css";
 import SearchFilter from "./SearchFilter";
+import "./CountriesContainer.css";
 
 export default function CountriesContainer(props) {
   const [countries, setCountries] = useState([]);
-  const [searchValue, setSearchValue] = useState("");
+  const [searchValue, setSearchValue] = useState("/all");
   const [filterValue, setFilterValue] = useState("");
   const [isLoading, setIsLoading] = React.useState(false);
 
   const getCountry = async (searchValue, filterValue) => {
     setIsLoading(true);
-    const url = "https://restcountries.com/v3.1/all";
-    const urlsearch = `https://restcountries.com/v3.1/name/${searchValue}/region/${filterValue}`;
-    console.log(urlsearch);
+    const urlsearch = `https://restcountries.com/v3.1${searchValue}`;
+    const result = await Axios.get(urlsearch).catch(() => {
+      setIsLoading(true);
+    });
+    const resultJson = await result.data;
+    console.log(resultJson);
+    if (resultJson) {
+      setCountries(resultJson);
+    }
     setIsLoading(false);
-    // const result = await Axios.get(urlsearch).catch(() => {
-    //   setIsLoading(true);
-    // });
-    // const resultJson = await result.data.results;
-    // if (resultJson) {
-    //   setCountries(resultJson);
-    // }
   };
   useEffect(() => {
     getCountry(searchValue, filterValue);
@@ -37,21 +35,18 @@ export default function CountriesContainer(props) {
         setFilterValue={setFilterValue}
       />
       <div className="countries_container-content">
-        {countriesData.map(
-          ({ id, name, capital, population, flag, region }) => (
-            <Link to={`/countries/${id}`}>
-              <CountriesItem
-                key={id}
-                flag={flag}
-                name={name}
-                population={population}
-                region={region}
-                capital={capital}
-                lightmode={props.lightmode}
-              />
-            </Link>
-          )
-        )}
+        {countries.map((country) => (
+          <Link to={`/countries/${country.ccn3}`}>
+            <CountriesItem
+              key={country.ccn3}
+              flag={country.flag.png}
+              name={country.name.common}
+              population={country.population}
+              region={country.region}
+              capital={country.capital}
+            />
+          </Link>
+        ))}
         {isLoading && (
           <div className="loading_container">
             <LoadingSpinner />
