@@ -1,7 +1,6 @@
 dark mode
 
-error boundary
 main api call
-globe logo for favicon
+favicon
 
 responsive
