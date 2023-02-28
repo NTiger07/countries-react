@@ -7,7 +7,7 @@ export default function Error() {
   return (
     <div className="error_container">
       <Link to="/">
-        <button id="backButton">
+        <button id="backButtonError">
           <span>
             <img src={arrow} alt="arrow" />
             Back

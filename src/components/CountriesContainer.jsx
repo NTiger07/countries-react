@@ -11,13 +11,14 @@ export default function CountriesContainer(props) {
   const [countries, setCountries] = useState([]);
   const [searchValue, setSearchValue] = useState("");
   const [filterValue, setFilterValue] = useState("");
-  const [isLoading, setIsLoading] = React.useState(true);
+  const [isLoading, setIsLoading] = React.useState(false);
 
   const getCountry = async (searchValue, filterValue) => {
-    // setIsLoading(false);
+    setIsLoading(true);
     const url = "https://restcountries.com/v3.1/all";
     const urlsearch = `https://restcountries.com/v3.1/name/${searchValue}/region/${filterValue}`;
     console.log(urlsearch);
+    setIsLoading(false);
     // const result = await Axios.get(urlsearch).catch(() => {
     //   setIsLoading(true);
     // });
