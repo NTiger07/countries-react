@@ -1,13 +1,12 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import Error from "./Error";
-import countries from "./countries";
 import "./CountriesDetails.css";
 import arrow from "../assets/arrow-left.svg";
 
-export default function CountriesDetails() {
+export default function CountriesDetails(props) {
   const { id } = useParams();
-  const country = countries.find((c) => String(c.id) === id);
+  const country = props.countries.find((c) => String(c.ccn3) === id);
 
   if (!country) {
     return <Error />;
@@ -25,11 +24,11 @@ export default function CountriesDetails() {
       </Link>
       <div className="details_container">
         <div className="details_image">
-          <img src={country.flag} alt="country-flag" />
+          <img src={country.flags.png} alt="country-flag" />
         </div>
         <div className="details_content">
-          <h1>{country.name}</h1>
-          <div className="points-container">
+          <h1>{country.name.official}</h1>
+          {/* <div className="points-container">
             <div className="content_pointsone">
               <span>
                 <b>Native Name: </b>
@@ -70,7 +69,7 @@ export default function CountriesDetails() {
             <span>-</span>
             <span>-</span>
             <span>-</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
