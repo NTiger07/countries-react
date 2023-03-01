@@ -32,7 +32,7 @@ export default function CountriesDetails(props) {
             <div className="content_pointsone">
               <span>
                 <b>Native Name: </b>
-                {/* {country.name.nativeName[0].common} */}
+                {Object.values(country.name.nativeName)[0].common}
               </span>
               <span>
                 <b>Population: </b>
