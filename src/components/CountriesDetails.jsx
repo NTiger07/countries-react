@@ -67,10 +67,12 @@ export default function CountriesDetails(props) {
             </div>
           </div>
           <div className="details_border">
-            <b>Border Countries: </b>
-            {country.borders.map((border) => {
-              return <span>{border}</span>;
-            })}
+            <b id="head">Border Countries: </b>
+            <div id="cont">
+              {country.borders.map((border) => {
+                return <span>{border}</span>;
+              })}
+            </div>
           </div>
         </div>
       </div>
