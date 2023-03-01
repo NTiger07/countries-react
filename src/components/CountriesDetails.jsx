@@ -32,7 +32,9 @@ export default function CountriesDetails(props) {
             <div className="content_pointsone">
               <span>
                 <b>Native Name: </b>
-                {Object.values(country.name.nativeName)[0].common}
+                {Object.values(country.name.nativeName)[0].common
+                  ? Object.values(country.name.nativeName)[0].common
+                  : "N/A"}
               </span>
               <span>
                 <b>Population: </b>
@@ -58,20 +60,26 @@ export default function CountriesDetails(props) {
               </span>
               <span>
                 <b>Currencies: </b>
-                {Object.values(country.currencies)[0].name}
+                {Object.values(country.currencies)[0].name
+                  ? Object.values(country.currencies)[0].name
+                  : "N/A"}
               </span>
               <span>
                 <b>Languages: </b>
-                {Object.values(country.languages)[0]}
+                {Object.values(country.languages)[0]
+                  ? Object.values(country.languages)[0]
+                  : "N/A"}
               </span>
             </div>
           </div>
           <div className="details_border">
             <b id="head">Border Countries: </b>
             <div id="cont">
-              {country.borders.map((border) => {
-                return <span>{border}</span>;
-              })}
+              {country.borders
+                ? country.borders.map((border) => {
+                    return <span>{border}</span>;
+                  })
+                : "N/A"}
             </div>
           </div>
         </div>
