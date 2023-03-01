@@ -54,24 +54,24 @@ export default function CountriesDetails(props) {
             <div className="content_pointstwo">
               <span>
                 <b>Top Level Domain: </b>
-                {country.tld}
+                {country.tld[0]}
               </span>
               <span>
                 <b>Currencies: </b>
-                {country.currencies}
+                {Object.values(country.currencies)[0].name}
               </span>
               <span>
                 <b>Languages: </b>
-                {country.languages}
+                {Object.values(country.languages)[0]}
               </span>
             </div>
           </div>
-          {/* <div className="details_border">
+          <div className="details_border">
             <b>Border Countries: </b>
-            <span>-</span>
-            <span>-</span>
-            <span>-</span>
-          </div> */}
+            {country.borders.map((border) => {
+              return <span>{border}</span>;
+            })}
+          </div>
         </div>
       </div>
     </div>
