@@ -19,7 +19,6 @@ export default function App() {
       setIsLoading(true);
     });
     const resultJson = await result.data;
-    console.log(resultJson);
     if (resultJson) {
       setCountries(resultJson);
     }
