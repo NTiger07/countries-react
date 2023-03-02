@@ -24,6 +24,18 @@ export default function App() {
       setCountries(resultJson);
     }
     setIsLoading(false);
+
+    //     let answer = data.filter((dummy) => (dummy.currencies !== undefined))
+    //
+    //     let realanswer = answer.filter((data) =>  {
+    //     for (let key in data.currencies) {
+    //         if(data.currencies[key].name === "United States dollar"){
+    //       return data
+    //       }
+    //     }
+    //     })
+    //     console.log(realanswer.length, realanswer[0].currencies)
+    // }
   };
 
   useEffect(() => {
