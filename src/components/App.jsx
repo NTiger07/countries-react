@@ -23,9 +23,16 @@ export default function App() {
     if (resultJson) {
       setCountries(resultJson);
     }
+    if (filterValue !== "/all") {
+      resultJson.filter((country) => {
+        if (country.region === filterValue) {
+          setCountries(country);
+        }
+      });
+    }
     setIsLoading(false);
 
-    //     let answer = data.filter((dummy) => (dummy.currencies !== undefined))
+    //
     //
     //     let realanswer = answer.filter((data) =>  {
     //     for (let key in data.currencies) {
