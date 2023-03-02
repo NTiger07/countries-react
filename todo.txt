@@ -1,10 +1,4 @@
 dark mode
 
 style fix
-
 responsive
-
-country does not exist
-
-network error
-
