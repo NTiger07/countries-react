@@ -18,18 +18,17 @@ export default function App() {
     const result = await Axios.get(urlsearch).catch(() => {
       setIsLoading(true);
     });
-    const resultJson = await result.data;
-    console.log(resultJson);
+
+    if (filterValue !== "All") {
+      var resultJson = await result.data.filter(
+        (country) => country.region === filterValue
+      );
+    } else {
+      resultJson = await result.data;
+    }
     if (resultJson) {
       setCountries(resultJson);
     }
-    // if (filterValue !== "All") {
-    //   for (let countryIndex in resultJson) {
-    //     if (resultJson[countryIndex].region === filterValue) {
-    //       setCountries(resultJson[countryIndex]);
-    //     }
-    //   }
-    // }
     setIsLoading(false);
   };
 
