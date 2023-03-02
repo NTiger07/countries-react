@@ -23,26 +23,14 @@ export default function App() {
     if (resultJson) {
       setCountries(resultJson);
     }
-    if (filterValue !== "/all") {
-      resultJson.filter((country) => {
-        if (country.region === filterValue) {
-          setCountries(country);
-        }
-      });
-    }
-    setIsLoading(false);
-
-    //
-    //
-    //     let realanswer = answer.filter((data) =>  {
-    //     for (let key in data.currencies) {
-    //         if(data.currencies[key].name === "United States dollar"){
-    //       return data
-    //       }
+    // if (filterValue !== "All") {
+    //   for (let countryIndex in resultJson) {
+    //     if (resultJson[countryIndex].region === filterValue) {
+    //       setCountries(resultJson[countryIndex]);
     //     }
-    //     })
-    //     console.log(realanswer.length, realanswer[0].currencies)
+    //   }
     // }
+    setIsLoading(false);
   };
 
   useEffect(() => {

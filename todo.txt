@@ -4,6 +4,10 @@ style fix
 filter
 responsive
 
+country does not exist
+
+network error
+
 
 
   //     let xhr = new XMLHttpRequest();

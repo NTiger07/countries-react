@@ -25,7 +25,7 @@ export default function SearchFilter(props) {
       </span>
       <span className="filter_container">
         <select name="region" id="filter" ref={continent}>
-          <option value="/all">All</option>
+          <option value="All">All</option>
           <option value="Africa">Africa</option>
           <option value="America">America</option>
           <option value="Asia">Asia</option>
