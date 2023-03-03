@@ -32,6 +32,12 @@ button {
   border-radius: 3px;
   background: linear-gradient(60deg, #3792e4, #31cabd);
 }
+.dark-bg {
+  background-color: var(--off-white-opposite);
+}
+.dark-elem {
+  background-color: var(--white-opposite);
+}
 .svgs {
   width: 20px;
   margin-right: 10px;
