@@ -7,7 +7,7 @@ export default function Header(props) {
     props.setIsDarkMode(!props.isDarkMode);
   };
   return (
-    <div className="header_container" id="test">
+    <div className={`${props.isDarkMode ? "dark-elem" : ""} header_container`}>
       <h1>Where in the world?</h1>
       <span onClick={toggle}>
         <img src={moon} alt="moon" className="svgs" />

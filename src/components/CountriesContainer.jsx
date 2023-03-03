@@ -8,10 +8,11 @@ import "./CountriesContainer.css";
 
 export default function CountriesContainer(props) {
   return (
-    <div className="countries_container" id="containtest">
+    <div className="countries_container">
       <SearchFilter
         setSearchValue={props.setSearchValue}
         setFilterValue={props.setFilterValue}
+        isDarkMode={props.isDarkMode}
       />
       <div className="countries_container-content">
         {props.countries || props.countries.length === 0 ? (
@@ -24,6 +25,7 @@ export default function CountriesContainer(props) {
                 population={country.population}
                 region={country.region}
                 capital={country.capital}
+                isDarkMode={props.isDarkMode}
               />
             </Link>
           ))

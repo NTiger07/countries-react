@@ -3,7 +3,7 @@ import "./CountriesItem.css";
 
 export default function CountriesItem(props) {
   return (
-    <div className="countries_item" id="itemtest">
+    <div className={`${props.isDarkMode ? "dark-elem" : ""} countries_item`}>
       <div className="countries_image">
         <img src={props.flag} alt="country_image" />
       </div>

@@ -11,12 +11,17 @@ export default function SearchFilter(props) {
   }, [continent.current.value, props]);
 
   return (
-    <div className="searchfilter_container">
+    <div
+      className={`${props.isDarkMode ? "dark-bg" : ""} searchfilter_container`}
+    >
       <span className="search_container">
-        <button id="searchBtn">
+        <button
+          className={`${props.isDarkMode ? "dark-elem" : ""} search_button`}
+        >
           <img src={search} alt="search" className="svgs" />
         </button>
         <input
+          className={`${props.isDarkMode ? "dark-elem" : ""}`}
           type="text"
           id="search_input"
           placeholder="Search for a country..."
@@ -24,7 +29,12 @@ export default function SearchFilter(props) {
         />
       </span>
       <span className="filter_container">
-        <select name="region" id="filter" ref={continent}>
+        <select
+          name="region"
+          id="filter"
+          ref={continent}
+          className={`${props.isDarkMode ? "dark-elem" : ""}`}
+        >
           <option value="All">All</option>
           <option value="Africa">Africa</option>
           <option value="America">America</option>

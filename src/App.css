@@ -37,6 +37,7 @@ button {
 }
 .dark-elem {
   background-color: var(--white-opposite);
+  color: #fff;
 }
 .svgs {
   width: 20px;
