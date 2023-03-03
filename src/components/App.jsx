@@ -11,6 +11,7 @@ export default function App() {
   const [searchValue, setSearchValue] = useState("/all");
   const [filterValue, setFilterValue] = useState("");
   const [isLoading, setIsLoading] = React.useState(false);
+  const [isDarkMode, setIsDarkMode] = React.useState(false);
 
   const getCountry = async (searchValue, filterValue) => {
     setIsLoading(true);
@@ -44,12 +45,13 @@ export default function App() {
             path="/"
             element={
               <>
-                <Header />
+                <Header isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
                 <CountriesContainer
                   countries={countries}
                   isLoading={isLoading}
                   setSearchValue={setSearchValue}
                   setFilterValue={setFilterValue}
+                  isDarkMode={isDarkMode}
                 />
               </>
             }
@@ -58,8 +60,11 @@ export default function App() {
             path="/countries/:id"
             element={
               <>
-                <Header />
-                <CountriesDetails countries={countries} />
+                <Header isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
+                <CountriesDetails
+                  countries={countries}
+                  isDarkMode={isDarkMode}
+                />
               </>
             }
           />
