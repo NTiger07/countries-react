@@ -14,7 +14,11 @@ export default function CountriesContainer(props) {
         setFilterValue={props.setFilterValue}
         isDarkMode={props.isDarkMode}
       />
-      <div className="countries_container-content">
+      <div
+        className={`${
+          props.isDarkMode ? "dark-bg" : ""
+        } countries_container-content`}
+      >
         {props.countries || props.countries.length === 0 ? (
           props.countries.map((country) => (
             <Link to={`/countries/${country.ccn3}`}>
