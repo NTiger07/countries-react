@@ -1,7 +1,2 @@
-dark mode
-
 style fix
 responsive
-
-box shadow
-details

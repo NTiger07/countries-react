@@ -14,7 +14,9 @@ export default function SearchFilter(props) {
     <div
       className={`${props.isDarkMode ? "dark-bg" : ""} searchfilter_container`}
     >
-      <span className="search_container">
+      <span
+        className={`${props.isDarkMode ? "dark-elem" : ""} search_container`}
+      >
         <button
           className={`${props.isDarkMode ? "dark-elem" : ""} search_button`}
         >
@@ -28,7 +30,9 @@ export default function SearchFilter(props) {
           onChange={(e) => props.setSearchValue(`/name/${e.target.value}`)}
         />
       </span>
-      <span className="filter_container">
+      <span
+        className={`${props.isDarkMode ? "dark-elem" : ""} filter_container`}
+      >
         <select
           name="region"
           id="filter"
