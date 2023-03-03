@@ -1,2 +1,2 @@
-style fix
 responsive
+style fix
