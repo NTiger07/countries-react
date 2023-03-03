@@ -34,9 +34,14 @@ button {
 }
 .dark-bg {
   background-color: var(--off-white-opposite);
+  color: #fff;
 }
 .dark-elem {
   background-color: var(--white-opposite);
+  color: #fff;
+}
+.dark-details {
+  background-color: #212e37;
   color: #fff;
 }
 .svgs {

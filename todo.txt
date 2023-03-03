@@ -4,3 +4,4 @@ style fix
 responsive
 
 box shadow
+details

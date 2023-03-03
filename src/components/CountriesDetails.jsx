@@ -13,9 +13,15 @@ export default function CountriesDetails(props) {
   }
 
   return (
-    <div className="countries_details-container" id="detailtest">
+    <div
+      className={`${
+        props.isDarkMode ? "dark-details" : ""
+      } countries_details-container`}
+    >
       <Link to="/">
-        <button id="backButton">
+        <button
+          className={`${props.isDarkMode ? "dark-details" : ""} backButton`}
+        >
           <span>
             <img src={arrow} alt="arrow" />
             Back
@@ -77,7 +83,11 @@ export default function CountriesDetails(props) {
             <div id="cont">
               {country.borders
                 ? country.borders.map((border) => {
-                    return <span>{border}</span>;
+                    return (
+                      <span className={`${props.isDarkMode ? "dark-bg" : ""}`}>
+                        {border}
+                      </span>
+                    );
                   })
                 : "N/A"}
             </div>

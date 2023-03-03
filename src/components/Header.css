@@ -3,6 +3,7 @@
   justify-content: space-between;
   padding: 20px 5vw;
   box-shadow: 2px 2px 10px #858585;
+  height: 10vh;
 }
 .header_container span {
   display: flex;
