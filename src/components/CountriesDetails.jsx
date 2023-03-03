@@ -19,9 +19,7 @@ export default function CountriesDetails(props) {
       } countries_details-container`}
     >
       <Link to="/">
-        <button
-          className={`${props.isDarkMode ? "dark-details" : ""} backButton`}
-        >
+        <button className={`${props.isDarkMode ? "dark-elem" : ""} backButton`}>
           <span>
             <img src={arrow} alt="arrow" />
             Back
@@ -84,7 +82,11 @@ export default function CountriesDetails(props) {
               {country.borders
                 ? country.borders.map((border) => {
                     return (
-                      <span className={`${props.isDarkMode ? "dark-bg" : ""}`}>
+                      <span
+                        className={`${
+                          props.isDarkMode ? "dark-elem" : ""
+                        } border-span`}
+                      >
                         {border}
                       </span>
                     );
