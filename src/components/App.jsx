@@ -11,7 +11,14 @@ export default function App() {
   const [searchValue, setSearchValue] = useState("/all");
   const [filterValue, setFilterValue] = useState("");
   const [isLoading, setIsLoading] = React.useState(false);
-  const [isDarkMode, setIsDarkMode] = React.useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    const storedValue = localStorage.getItem("isDarkMode");
+    return storedValue !== null ? JSON.parse(storedValue) : false;
+  });
+
+  useEffect(() => {
+    localStorage.setItem("isDarkMode", JSON.stringify(isDarkMode));
+  }, [isDarkMode]);
 
   const getCountry = async (searchValue, filterValue) => {
     setIsLoading(true);
