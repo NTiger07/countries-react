@@ -53,3 +53,8 @@ select {
   cursor: pointer;
   background-color: var(--white);
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+}

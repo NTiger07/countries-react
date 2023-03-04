@@ -1,13 +1,37 @@
 .header_container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 5vw;
   box-shadow: 2px 2px 10px #858585;
   height: 10vh;
+  overflow: hidden;
 }
 .header_container span {
   display: flex;
   align-items: center;
   font-weight: 700;
   cursor: pointer;
+}
+.header_container h1 {
+  height: max-content;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 425px) {
+  .header_container h1 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header_container h1 {
+    font-size: 16px;
+  }
+  .header_container span {
+    font-size: 16px;
+  }
+  .header_container img {
+    margin-right: 5px;
+  }
 }
