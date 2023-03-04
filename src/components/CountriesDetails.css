@@ -108,13 +108,49 @@
   }
 }
 @media screen and (max-width: 425px) {
+  .backButton {
+    width: 35%;
+  }
+  .countries_details-container {
+    padding: 20px 5vw;
+    height: 90vh;
+  }
   .details_container {
     flex-direction: column;
+    margin-top: 0;
+  }
+  .details_image {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .details_image img {
+    height: 100%;
+    width: 100%;
   }
   .details_content {
     flex-direction: column;
+    margin-left: 0;
+    padding-bottom: 0;
   }
   .points-container {
     flex-direction: column;
+    height: max-content;
+  }
+  .details_content h1 {
+    overflow: hidden;
+  }
+  .points-container span {
+    overflow: hidden;
+  }
+  .content_pointsone,
+  .content_pointstwo {
+    padding-top: 20px;
+    height: max-content;
+  }
+  .details_border b {
+    overflow: hidden;
+  }
+  #cont {
+    overflow: hidden;
   }
 }
