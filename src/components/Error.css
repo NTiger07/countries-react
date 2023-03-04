@@ -44,3 +44,42 @@
   transform: scaleY(0.8);
   padding-right: 5px;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+  .error_container a {
+    width: 20%;
+    height: 7vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .error_container a {
+    width: 20%;
+    height: 6vh;
+  }
+}
+@media screen and (max-width: 425px) {
+  .error_container a {
+    width: 30%;
+    height: 6vh;
+  }
+}
+@media screen and (max-width: 375px) {
+  .error_container a {
+    width: 35%;
+    height: 7vh;
+  }
+  #backButtonError span {
+    font-size: 18px;
+  }
+  #backButtonError img {
+    width: 25px;
+    height: 25px;
+    transform: scaleX(1.5);
+    transform: scaleY(0.8);
+  }
+  .error_content span {
+    font-size: 22px;
+    text-align: center;
+  }
+}
