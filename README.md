@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://vgweather.netlify.app)
+- Live Site URL: [https://vgcountry.netlify.app](https://vgcountry.netlify.app)
 
 ### Built with
 
