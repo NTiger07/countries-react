@@ -155,4 +155,7 @@
   }
 }
 @media screen and (max-width: 375px) {
+  .details_content h1 {
+    font-size: 22px;
+  }
 }
