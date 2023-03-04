@@ -42,6 +42,10 @@ button {
   color: #fff;
   box-shadow: 2px 2px 10px #151522b9;
 }
+.dark-elemt {
+  background-color: var(--white-opposite);
+  color: #fff;
+}
 .dark-details {
   background-color: #212e37;
   color: #fff;

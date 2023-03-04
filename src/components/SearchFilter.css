@@ -56,5 +56,38 @@ select {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
+  .search_container {
+    width: 38%;
+  }
+  .filter_container {
+    width: 17%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .search_container {
+    width: 55%;
+  }
+  .filter_container {
+    width: 25%;
+  }
+  .search_container img {
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .search_container {
+    width: 60%;
+  }
+  .search_container img {
+    margin-left: 7px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .search_container {
+    width: 66%;
+  }
+  .filter_container {
+    width: 26%;
+  }
 }

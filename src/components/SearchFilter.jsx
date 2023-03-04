@@ -23,10 +23,10 @@ export default function SearchFilter(props) {
           <img src={search} alt="search" className="svgs" />
         </button>
         <input
-          className={`${props.isDarkMode ? "dark-elem" : ""}`}
+          className={`${props.isDarkMode ? "dark-elemt" : ""}`}
           type="text"
           id="search_input"
-          placeholder="Search for a country..."
+          placeholder=" Search for a country..."
           onChange={(e) => props.setSearchValue(`/name/${e.target.value}`)}
         />
       </span>
