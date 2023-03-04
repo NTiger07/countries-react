@@ -29,6 +29,8 @@
 .details_image {
   width: 50%;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 .details_image img {
   height: 100%;
@@ -74,4 +76,45 @@
   display: flex;
   height: max-content;
   padding: 10px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1024px) {
+  .backButton {
+    width: 15%;
+  }
+  .details_container {
+    height: 90vh;
+    display: flex;
+    margin-top: 10vh;
+  }
+  .details_image img {
+    height: 80%;
+  }
+  .content_pointstwo {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .backButton {
+    width: 20%;
+  }
+  .details_image img {
+    height: 65%;
+  }
+  .content_pointstwo {
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .details_container {
+    flex-direction: column;
+  }
+  .details_content {
+    flex-direction: column;
+  }
+  .points-container {
+    flex-direction: column;
+  }
 }
